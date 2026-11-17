@@ -10,7 +10,7 @@ export async function initSearch() {
   if (Array.isArray(data)) {
     figuresIndex = data.map((f) => ({
       ...f,
-      _search: normalizeText(`${f.nameAr} ${f.nameEn} ${f.country || ""} ${f.field || ""}`),
+      _search: normalizeText(`${f.nameAr} ${f.nameEn} ${(f.alternateNames || []).join(" ")} ${f.country || ""} ${f.field || ""}`),
     }));
     loaded = true;
   }
@@ -43,20 +43,21 @@ export function bindSearchPopover(inputEl, popoverEl) {
       return;
     }
     popoverEl.innerHTML = results
-      .map(
-        (f) => `
-      <a class="search-result" href="figures/figure.html?slug=${encodeURIComponent(f.slug)}" data-index="${results.indexOf(f)}">
-        <div class="avatar">${
-          f.image
-            ? `<img src="${escapeHtml(f.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
-            : escapeHtml((f.nameAr || "?").charAt(0))
+      .map((f, index) => {
+        const detailsUrl = new URL("../../figures/figure.html", import.meta.url);
+        detailsUrl.searchParams.set("slug", f.slug);
+        return `
+      <a class="search-result" href="${escapeHtml(detailsUrl.href)}" data-index="${index}">
+        <div class="avatar">${f.image
+          ? `<img src="${escapeHtml(f.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+          : escapeHtml((f.nameAr || "?").charAt(0))
         }</div>
         <div class="info">
           <b>${highlightMatch(f.nameAr, q)}</b>
           <small>${escapeHtml(f.field || "")} · ${escapeHtml(f.country || "")}</small>
         </div>
-      </a>`
-      )
+      </a>`;
+      })
       .join("");
     popoverEl.dataset.open = "true";
   };
