@@ -43,7 +43,7 @@ function renderFigure(f) {
   const url = BASE + "/figures/" + f.slug + ".html";
   const title = f.nameAr + " (" + f.nameEn + ") — رجال عبر التاريخ";
   const description = (f.summary || ("السيرة التاريخية لـ " + f.nameAr + ".")).slice(0, 160);
-  const imagePath = f.image && f.image.url && (/^https?:\\/\\//i.test(f.image.url) || existsSync(resolve(f.image.url))) ? asset(f.image.url) : "";
+  const imagePath = f.image && f.image.url && (String(f.image.url).startsWith("http://") || String(f.image.url).startsWith("https://") || existsSync(resolve(f.image.url))) ? asset(f.image.url) : "";
   const person = {
     "@type": "Person", "@id": url + "#person", name: f.nameAr,
     alternateName: [f.nameEn].concat(f.alternateNames || []).filter(Boolean),
