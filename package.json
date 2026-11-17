@@ -10,6 +10,7 @@
     "validate": "node scripts/validate-data.js",
     "build": "node scripts/build.js",
     "sitemap": "node scripts/generate-sitemap.js",
-    "check": "npm run validate && npm run build && npm run sitemap"
+    "check:links": "node scripts/check-links.js",
+    "check": "npm run validate && npm run build && npm run sitemap && npm run check:links"
   }
 }
