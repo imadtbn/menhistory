@@ -11,6 +11,7 @@
     "build": "node scripts/build.js",
     "sitemap": "node scripts/generate-sitemap.js",
     "check:links": "node scripts/check-links.js",
-    "check": "npm run validate && npm run build && npm run sitemap && npm run check:links"
+    "check:seo": "node scripts/check-seo.js",
+    "check": "npm run validate && npm run build && npm run sitemap && npm run check:seo && npm run check:links"
   }
 }
