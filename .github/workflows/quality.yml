@@ -12,7 +12,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate-and-build:
@@ -28,3 +28,14 @@ jobs:
 
       - name: Validate data, build pages, and generate sitemap
         run: npm run check
+
+      - name: Persist generated pages on main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add figures/*.html sitemap.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: regenerate static figure pages and sitemap"
+            git push
+          fi
