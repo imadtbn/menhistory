@@ -3,10 +3,10 @@ import { escapeHtml, formatDateRange } from "./utils.js";
 /** بطاقة شخصية */
 export function renderFigureCard(f) {
   const initials = (f.nameAr || "?").charAt(0);
-  const detailsUrl = new URL("../../figures/figure.html", import.meta.url);
-  detailsUrl.searchParams.set("slug", f.slug);
-  const media = f.image
-    ? `<img src="${escapeHtml(f.image)}" alt="${escapeHtml(f.nameAr)}" loading="lazy"
+  const detailsUrl = new URL(`../../figures/${encodeURIComponent(f.slug)}.html`, import.meta.url);
+  const imageUrl = f.image ? new URL(`../../${f.image.replace(/^\//, "")}`, import.meta.url).href : "";
+  const media = imageUrl
+    ? `<img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(f.nameAr)}" loading="lazy"
          onerror="this.parentElement.querySelector('.placeholder')?.style.removeProperty('display');this.remove();">
        <div class="placeholder" style="display:none">${escapeHtml(initials)}</div>`
     : `<div class="placeholder">${escapeHtml(initials)}</div>`;
