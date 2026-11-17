@@ -3,19 +3,6 @@ import { join } from "node:path";
 
 const BASE = "https://imadtbn.github.io/menhistory";
 const errors = [];
-const requiredPages = [
-  "index.html",
-  "figures/index.html",
-  "figures/directory.html",
-  "categories/index.html",
-  "regions/index.html",
-  "eras/index.html",
-  "pages/about.html",
-  "pages/methodology.html",
-  "pages/sources.html",
-  "pages/privacy.html"
-];
-
 function fail(message) {
   errors.push(message);
   console.error("✗ " + message);
@@ -48,8 +35,11 @@ function checkPage(path, expectedUrl, expectedType) {
     try {
       const data = JSON.parse(match[1]);
       const graph = data["@graph"] || [data];
-      if (!graph.some((item) => item["@type"] === expectedType || (Array.isArray(item["@type"]) && item["@type"].includes(expectedType)))) {
+      const schemaPage = graph.find((item) => item["@type"] === expectedType);
+      if (!schemaPage) {
         fail(path + ": JSON-LD does not include expected schema type " + expectedType);
+      } else if (expectedType !== "Person" && schemaPage.description && description && schemaPage.description !== description) {
+        fail(path + ": JSON-LD description does not match the page meta description");
       }
     } catch (error) {
       fail(path + ": invalid JSON-LD — " + error.message);
