@@ -26,33 +26,5 @@ jobs:
         with:
           node-version: 20
 
-      - name: Validate data, build pages, and generate sitemap
+      - name: Validate data, build pages, generate sitemap, and check links
         run: npm run check
-
-  persist-generated:
-    needs: validate-and-build
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Generate deployable HTML pages and sitemap
-        run: npm run build && npm run sitemap
-
-      - name: Commit generated site files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add figures/*.html sitemap.xml
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: regenerate static figure pages and sitemap"
-            git push
-          fi
