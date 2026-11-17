@@ -1,0 +1,75 @@
+{
+  "slug": "darwin",
+  "nameAr": "تشارلز داروين",
+  "nameEn": "Charles Darwin",
+  "alternateNames": ["Charles Robert Darwin"],
+  "birth": {
+    "date": "1809-02-12",
+    "place": "شروزبري، شروبشاير، إنجلترا",
+    "precision": "exact"
+  },
+  "death": {
+    "date": "1882-04-19",
+    "place": "داون هاوس، كينت، إنجلترا"
+  },
+  "nationality": "بريطاني",
+  "geography": {
+    "regions": ["western-europe"],
+    "countries": ["إنجلترا"]
+  },
+  "culturalBackground": ["european-civilization"],
+  "fields": {
+    "primary": "science",
+    "secondary": ["biology", "natural-history"]
+  },
+  "era": "19th-century",
+  "religion": null,
+  "political": null,
+  "image": {},
+  "summary": "عالم طبيعة إنجليزي، اشتهر بتطوير نظرية التطور بالانتقاء الطبيعي وعرضها في كتابه «أصل الأنواع» الصادر عام 1859.",
+  "notableFor": "تطوير نظرية التطور بالانتقاء الطبيعي وتأثيرها العميق في علم الأحياء الحديث.",
+  "timeline": [
+    { "year": "1809", "event": "ولادته في شروزبري بإنجلترا" },
+    { "year": "1831–1836", "event": "رحلته العلمية حول العالم على متن سفينة بيغل" },
+    { "year": "1859", "event": "نشر كتاب «أصل الأنواع»" },
+    { "year": "1882", "event": "وفاته في داون هاوس بإنجلترا" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد تشارلز روبرت داروين في شروزبري يوم 12 فبراير 1809. درس الطب في إدنبرة ثم تابع دراسته في كامبريدج، حيث تعمق اهتمامه بالتاريخ الطبيعي.",
+    "career": "شارك بين عامي 1831 و1836 بصفته عالم طبيعة في رحلة سفينة بيغل. وأسهمت ملاحظاته ومجموعاته العلمية خلال الرحلة، إلى جانب أبحاثه اللاحقة، في تطوير تفسيره للتنوع الحيوي والتغير في الأنواع.",
+    "achievements": [
+      "تطوير نظرية التطور بالانتقاء الطبيعي بصورة علمية مؤثرة",
+      "نشر كتاب «أصل الأنواع» عام 1859",
+      "إسهامات بارزة في علم الأحياء والتاريخ الطبيعي والجيولوجيا"
+    ],
+    "inventions": [],
+    "ideas": "التطور والتنوع الحيوي والانتقاء الطبيعي.",
+    "positions": ["عالم طبيعة"]
+  },
+  "relatedFigures": [],
+  "sources": [
+    {
+      "title": "Charles Darwin: History’s most famous biologist",
+      "url": "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-biologist.html",
+      "publisher": "Natural History Museum, London",
+      "type": "museum",
+      "supports": "السيرة والرحلة العلمية ونظرية الانتقاء الطبيعي وكتاب أصل الأنواع"
+    },
+    {
+      "title": "About Darwin",
+      "url": "https://www.darwinproject.ac.uk/about-darwin",
+      "publisher": "Darwin Correspondence Project, University of Cambridge",
+      "type": "academic",
+      "supports": "تاريخ الميلاد والسياق العلمي والفكري"
+    },
+    {
+      "title": "Charles Darwin (1809–82)",
+      "url": "https://www.linnean.org/the-society/history-of-science/charles-darwin",
+      "publisher": "The Linnean Society of London",
+      "type": "academic",
+      "supports": "رحلة بيغل وتطوير نظرية التطور ونشر كتاب أصل الأنواع"
+    }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

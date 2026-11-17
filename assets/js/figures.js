@@ -1,15 +1,17 @@
-import { escapeHtml, formatDateRange, normalizeText, highlightMatch } from "./utils.js";
+import { escapeHtml, formatDateRange } from "./utils.js";
 
 /** بطاقة شخصية */
 export function renderFigureCard(f) {
   const initials = (f.nameAr || "?").charAt(0);
+  const detailsUrl = new URL("../../figures/figure.html", import.meta.url);
+  detailsUrl.searchParams.set("slug", f.slug);
   const media = f.image
     ? `<img src="${escapeHtml(f.image)}" alt="${escapeHtml(f.nameAr)}" loading="lazy"
          onerror="this.parentElement.querySelector('.placeholder')?.style.removeProperty('display');this.remove();">
        <div class="placeholder" style="display:none">${escapeHtml(initials)}</div>`
     : `<div class="placeholder">${escapeHtml(initials)}</div>`;
   return `
-    <a class="card fade-up" href="figures/figure.html?slug=${encodeURIComponent(f.slug)}">
+    <a class="card fade-up" href="${escapeHtml(detailsUrl.href)}">
       <div class="card-media">${media}</div>
       <div class="card-body">
         <h3 class="card-title">${escapeHtml(f.nameAr)}</h3>
@@ -59,7 +61,6 @@ export async function loadHomepageSections() {
   mount("#most-viewed-grid", featured?.mostViewed);
   mount("#recent-grid", featured?.recentlyAdded);
 
-  // عدد الإحصائيات
   const statFigures = document.getElementById("stat-figures");
   if (statFigures) statFigures.textContent = all.length;
   const statRegions = document.getElementById("stat-regions");
