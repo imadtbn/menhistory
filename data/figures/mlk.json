@@ -1,0 +1,48 @@
+{
+  "slug": "mlk",
+  "nameAr": "مارتن لوثر كينغ",
+  "nameEn": "Martin Luther King Jr.",
+  "alternateNames": ["MLK", "الدكتور كينغ"],
+  "birth": { "date": "1929-01-15", "place": "أتلانتا، جورجيا، أمريكا", "precision": "exact" },
+  "death": { "date": "1968-04-04", "place": "ممفيس، تينيسي، أمريكا" },
+  "nationality": "أمريكي",
+  "geography": { "regions": ["north-america"], "countries": ["الولايات المتحدة"] },
+  "culturalBackground": ["american-civilization"],
+  "fields": { "primary": "human-rights", "secondary": ["religion", "politics"] },
+  "era": "20th-century",
+  "religion": { "value": "مسيحي (معمداني)", "documented": true },
+  "political": { "value": "قائد حركة الحقوق المدنية", "documented": true },
+  "image": { "url": "assets/images/figures/mlk.webp", "alt": "صورة مارتن لوثر كينغ", "credit": "Public Domain" },
+  "summary": "قس وناشط أمريكي، قاد حركة الحقوق المدنية للأمريكيين الأفارقة، وأحد أبرز رموز اللاعنف في القرن العشرين.",
+  "notableFor": "قيادة حركة الحقوق المدنية، وخطاب «لديّ حلم»",
+  "timeline": [
+    { "year": "1929", "event": "ولادته في أتلانتا" },
+    { "year": "1955", "event": "قيادة مقاطعة حافلات مونتغومري" },
+    { "year": "1963", "event": "خطاب «لديّ حلم»" },
+    { "year": "1964", "event": "جائزة نوبل للسلام" },
+    { "year": "1968", "event": "اغتياله في ممفيس" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في عائلة قساوسة معمدانيين، وتلقّى تعليماً دينياً وأكاديمياً متميزاً.",
+    "career": "أصبح قساً ثم قاد حركة الحقوق المدنية الأمريكية عبر العصيان المدني واللاعنف.",
+    "achievements": [
+      "قيادة حركة الحقوق المدنية",
+      "خطاب «لديّ حلم» (1963)",
+      "قانون الحقوق المدنية (1964) وقانون حق التصويت (1965)",
+      "جائزة نوبل للسلام (1964)"
+    ],
+    "inventions": [],
+    "ideas": "اللاعنف، والمساواة العرقية، والعدالة الاجتماعية.",
+    "positions": ["رئيس مؤتمر القيادة المسيحية الجنوبية"],
+    "quotes": [
+      { "text": "لديّ حلم بأن أبنائي الأربعة سيعيشون يوماً في أمة لا يُحكم عليهم فيها بلون بشرتهم بل بمحتوى شخصيتهم", "source": "خطاب «لديّ حلم»، 1963" }
+    ]
+  },
+  "relatedFigures": ["gandhi", "nelson-mandela", "lincoln"],
+  "sources": [
+    { "title": "Martin Luther King Jr. — Nobel Prize", "url": "https://www.nobelprize.org/prizes/peace/1964/king/facts/", "publisher": "Nobel Foundation", "type": "institutional", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Martin Luther King Jr. — The King Center", "url": "https://thekingcenter.org/", "publisher": "The King Center", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الأولية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

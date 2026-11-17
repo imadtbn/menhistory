@@ -1,0 +1,45 @@
+{
+  "slug": "bolivar",
+  "nameAr": "سيمون بوليفار",
+  "nameEn": "Simón Bolívar",
+  "alternateNames": ["المحرر", "El Libertador"],
+  "birth": { "date": "1783-07-24", "place": "كاراكاس، فنزويلا", "precision": "exact" },
+  "death": { "date": "1830-12-17", "place": "سانتا مارتا، كولومبيا" },
+  "nationality": "فنزويلي",
+  "geography": { "regions": ["south-america"], "countries": ["فنزويلا", "كولومبيا", "الإكوادور", "بيرو", "بوليفيا"] },
+  "culturalBackground": ["american-civilization"],
+  "fields": { "primary": "politics", "secondary": ["military"] },
+  "era": "19th-century",
+  "religion": { "value": "كاثوليكي", "documented": true },
+  "political": { "value": "قائد حركة الاستقلال", "documented": true },
+  "image": { "url": "assets/images/figures/bolivar.webp", "alt": "بورتريه سيمون بوليفار", "credit": "Public Domain" },
+  "summary": "قائد عسكري وسياسي فنزويلي، قاد حركات استقلال خمس دول أمريكية لاتينية عن إسبانيا، ويُلقّب بـ«المحرر».",
+  "notableFor": "قيادة استقلال فنزويلا وكولومبيا والإكوادور وبيرو وبوليفيا",
+  "timeline": [
+    { "year": "1783", "event": "ولادته في كاراكاس" },
+    { "year": "1810", "event": "بدء حركة الاستقلال" },
+    { "year": "1819", "event": "تأسيس كولومبيا الكبرى" },
+    { "year": "1825", "event": "استقلال بوليفيا" },
+    { "year": "1830", "event": "وفاته في سانتا مارتا" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في عائلة أرستقراطية فنزويلية، وتلقّى تعليماً أوروبياً في إسبانيا وفرنسا.",
+    "career": "قاد حملات عسكرية واسعة لتحرير أمريكا الجنوبية من الاستعمار الإسباني، وأسس كولومبيا الكبرى.",
+    "achievements": [
+      "تحرير خمس دول أمريكية لاتينية",
+      "تأسيس كولومبيا الكبرى (1819-1831)",
+      "وضع أسس الوحدة الأمريكية اللاتينية"
+    ],
+    "inventions": [],
+    "ideas": "الوحدة الأمريكية اللاتينية، والجمهورية، والاستقلال عن الاستعمار.",
+    "positions": ["رئيس كولومبيا الكبرى", "رئيس بوليفيا"],
+    "quotes": []
+  },
+  "relatedFigures": ["washington", "napoleon"],
+  "sources": [
+    { "title": "Simón Bolívar — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Simon-Bolivar", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Simón Bolívar — Ministerio de Cultura", "url": "http://www.mincultura.gob.ve/", "publisher": "Government of Venezuela", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الرسمية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

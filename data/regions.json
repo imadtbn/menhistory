@@ -1,0 +1,17 @@
+[
+  { "id": "north-africa", "nameAr": "شمال أفريقيا", "continent": "أفريقيا" },
+  { "id": "sub-saharan-africa", "nameAr": "أفريقيا جنوب الصحراء", "continent": "أفريقيا" },
+  { "id": "middle-east", "nameAr": "الشرق الأوسط", "continent": "آسيا" },
+  { "id": "arabian-peninsula", "nameAr": "شبه الجزيرة العربية", "continent": "آسيا" },
+  { "id": "levant", "nameAr": "بلاد الشام", "continent": "آسيا" },
+  { "id": "central-asia", "nameAr": "آسيا الوسطى", "continent": "آسيا" },
+  { "id": "east-asia", "nameAr": "شرق آسيا", "continent": "آسيا" },
+  { "id": "south-asia", "nameAr": "جنوب آسيا", "continent": "آسيا" },
+  { "id": "southeast-asia", "nameAr": "جنوب شرق آسيا", "continent": "آسيا" },
+  { "id": "western-europe", "nameAr": "أوروبا الغربية", "continent": "أوروبا" },
+  { "id": "eastern-europe", "nameAr": "أوروبا الشرقية", "continent": "أوروبا" },
+  { "id": "north-america", "nameAr": "أمريكا الشمالية", "continent": "أمريكا الشمالية" },
+  { "id": "south-america", "nameAr": "أمريكا الجنوبية", "continent": "أمريكا الجنوبية" },
+  { "id": "central-america-caribbean", "nameAr": "أمريكا الوسطى والكاريبي", "continent": "أمريكا الشمالية" },
+  { "id": "oceania", "nameAr": "أوقيانوسيا", "continent": "أوقيانوسيا" }
+]

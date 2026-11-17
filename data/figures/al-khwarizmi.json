@@ -1,0 +1,45 @@
+{
+  "slug": "al-khwarizmi",
+  "nameAr": "محمد بن موسى الخوارزمي",
+  "nameEn": "Muhammad ibn Musa al-Khwarizmi",
+  "alternateNames": ["الخوارزمي", "Algoritmi"],
+  "birth": { "date": "~780", "place": "خوارزم، بلاد فارس", "precision": "year" },
+  "death": { "date": "~850", "place": "بغداد، الدولة العباسية" },
+  "nationality": "فارسي",
+  "geography": { "regions": ["central-asia", "middle-east"], "countries": ["أوزبكستان", "العراق"] },
+  "culturalBackground": ["islamic-civilization"],
+  "fields": { "primary": "math-physics", "secondary": ["science", "technology"] },
+  "era": "medieval",
+  "religion": { "value": "الإسلام", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/al-khwarizmi.webp", "alt": "تمثال الخوارزمي", "credit": "Public Domain" },
+  "summary": "عالم رياضيات وفلك وجغرافيا، يُلقّب بـ«أبي الجبر»، واسمه أصل كلمة «Algorithm» في اللغات الأوروبية.",
+  "notableFor": "تأسيس علم الجبر، وإدخال نظام الأرقام الهندية (العربية) إلى العالم",
+  "timeline": [
+    { "year": "~780", "event": "ولادته في خوارزم" },
+    { "year": "~820", "event": "انضم إلى بيت الحكمة في بغداد" },
+    { "year": "~830", "event": "ألّف «المختصر في حساب الجبر والمقابلة»" },
+    { "year": "~850", "event": "وفاته في بغداد" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في خوارزم (أوزبكستان الحالية) في النصف الثاني من القرن الثامن الميلادي، وانتقل إلى بغداد حيث نشأ في ظل الدولة العباسية.",
+    "career": "عمل في «بيت الحكمة» في بغداد في عهد الخليفة المأمون، حيث ترجم وطوّر أعمالاً يونانية وهندية في الرياضيات والفلك والجغرافيا.",
+    "achievements": [
+      "تأسيس علم الجبر في كتابه «المختصر في حساب الجبر والمقابلة»",
+      "إدخال الأرقام العربية (الهندية) إلى العالم الإسلامي وأوروبا",
+      "تطوير جداول فلكية دقيقة",
+      "مساهمات في رسم الخرائط الجغرافية"
+    ],
+    "inventions": ["أساليب حل المعادلات التربيعية"],
+    "ideas": "أرسى منهجاً جبرياً يعتمد على الرموز والعمليات المنظمة، بدلاً من الطرق الهندسية اليونانية.",
+    "positions": ["عالم في بيت الحكمة، بغداد"],
+    "quotes": []
+  },
+  "relatedFigures": ["ibn-sina"],
+  "sources": [
+    { "title": "Al-Khwarizmi — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/al-Khwarizmi", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة والإسهامات الرياضية" },
+    { "title": "Al-Khwarizmi — MacTutor History of Mathematics", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/", "publisher": "University of St Andrews", "type": "academic", "accessed": "2024-01-15", "supports": "التفاصيل الرياضية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

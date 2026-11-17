@@ -1,0 +1,44 @@
+{
+  "slug": "al-razi",
+  "nameAr": "أبو بكر الرازي",
+  "nameEn": "Al-Razi (Rhazes)",
+  "alternateNames": ["الرازي", "أبو بكر محمد بن زكريا الرازي", "Rhazes"],
+  "birth": { "date": "854", "place": "الري، بلاد فارس", "precision": "year" },
+  "death": { "date": "925", "place": "الري، بلاد فارس" },
+  "nationality": "فارسي",
+  "geography": { "regions": ["middle-east"], "countries": ["إيران"] },
+  "culturalBackground": ["islamic-civilization"],
+  "fields": { "primary": "medicine", "secondary": ["philosophy", "science"] },
+  "era": "medieval",
+  "religion": { "value": "الإسلام", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/al-razi.webp", "alt": "تمثال الرازي", "credit": "Public Domain" },
+  "summary": "طبيب وفيلسوف وكيميائي مسلم، من أعظم أطباء الحضارة الإسلامية، وصفه الغرب بـ«أعظم طبيب في العالم الإسلامي».",
+  "notableFor": "كتاب «الحاوي في الطب» — موسوعة طبية شاملة، وأول وصف دقيق للجدري والحصبة",
+  "timeline": [
+    { "year": "854", "event": "ولادته في الري" },
+    { "year": "~900", "event": "إدارته لمستشفى الري ثم بغداد" },
+    { "year": "925", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في مدينة الري، ودرس الفلسفة والكيمياء قبل أن يتجه إلى الطب في سن متأخرة.",
+    "career": "أدار مستشفيات الري وبغداد، ودرّس الطب، وألف موسوعات طبية استُخدمت لقرون.",
+    "achievements": [
+      "أول وصف سريري دقيق للجدري والحصبة",
+      "تأليف «الحاوي في الطب» (20 مجلداً)",
+      "تأسيس منهج الملاحظة التجريبية في الطب الإسلامي",
+      "مساهمات في الكيمياء والصيدلة"
+    ],
+    "inventions": ["أساليب تعقيم الجروح"],
+    "ideas": "الطب قائم على التجربة والملاحظة، ورفض الاعتماد على السلطة وحدها.",
+    "positions": ["مدير مستشفى بغداد", "مدير مستشفى الري"],
+    "quotes": []
+  },
+  "relatedFigures": ["ibn-sina", "hippocrates"],
+  "sources": [
+    { "title": "Al-Razi — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/al-Razi", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Al-Razi — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/razi/", "publisher": "Stanford University", "type": "academic", "accessed": "2024-01-15", "supports": "الفلسفة" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

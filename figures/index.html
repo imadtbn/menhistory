@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الشخصيات — رجال عبر التاريخ</title>
+  <meta name="description" content="استعرض جميع الشخصيات في موسوعة رجال عبر التاريخ، مع إمكانية التصفية حسب المجال والمنطقة والحقبة.">
+  <link rel="canonical" href="https://imadtbn.github.io/menhistory/figures/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark" aria-hidden="true">MTH</span>
+        <span class="brand-text">رجال عبر التاريخ<small>Men Throughout History</small></span>
+      </a>
+      <nav aria-label="القائمة الرئيسية">
+        <ul class="nav-list" id="nav-list">
+          <li><a href="../index.html">الرئيسية</a></li>
+          <li><a href="index.html" aria-current="page">الشخصيات</a></li>
+          <li><a href="../categories/index.html">المجالات</a></li>
+          <li><a href="../regions/index.html">المناطق</a></li>
+          <li><a href="../eras/index.html">الحقب</a></li>
+          <li><a href="../pages/about.html">عن الموسوعة</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="تبديل الوضع الليلي">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" aria-label="فتح القائمة" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:32px; padding-bottom:64px">
+    <header style="margin-bottom:24px">
+      <h1 class="section-title" style="margin-bottom:8px">جميع الشخصيات</h1>
+      <p style="color:var(--text-muted)">تصفَّح، ابحث، وفلتر الشخصيات حسب اهتمامك.</p>
+    </header>
+
+    <div class="filters-bar">
+      <div class="filters-row">
+        <div class="filter-search">
+          <input id="filter-search" type="search" placeholder="ابحث بالاسم أو الدولة..." aria-label="بحث">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </div>
+        <select class="filter-select" id="filter-field" aria-label="المجال"></select>
+        <select class="filter-select" id="filter-region" aria-label="المنطقة"></select>
+        <select class="filter-select" id="filter-era" aria-label="الحقبة"></select>
+      </div>
+    </div>
+
+    <div class="results-info">
+      <div class="results-count" id="results-count"></div>
+      <button class="clear-filters" id="clear-filters">مسح جميع الفلاتر ✕</button>
+    </div>
+
+    <div class="cards-grid" id="figures-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        © 2024 رجال عبر التاريخ — Men Throughout History.
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../assets/js/app.js"></script>
+</body>
+</html>

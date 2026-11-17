@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /figures/?*        # صفحات البحث والتصفية
+Disallow: /*?search=
+Disallow: /*?filter=
+
+Sitemap: https://imadtbn.github.io/menhistory/sitemap.xml

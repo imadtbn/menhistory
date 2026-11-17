@@ -1,0 +1,48 @@
+{
+  "slug": "napoleon",
+  "nameAr": "نابليون بونابرت",
+  "nameEn": "Napoleon Bonaparte",
+  "alternateNames": ["نابليون الأول", "Napoleon I"],
+  "birth": { "date": "1769-08-15", "place": "أجاكسيو، كورسيكا، فرنسا", "precision": "exact" },
+  "death": { "date": "1821-05-05", "place": "سانت هيلينا" },
+  "nationality": "فرنسي",
+  "geography": { "regions": ["western-europe"], "countries": ["فرنسا"] },
+  "culturalBackground": ["european-civilization"],
+  "fields": { "primary": "military", "secondary": ["politics"] },
+  "era": "modern",
+  "religion": { "value": "كاثوليكي", "documented": true },
+  "political": { "value": "إمبراطور الفرنسيين", "documented": true },
+  "image": { "url": "assets/images/figures/napoleon.webp", "alt": "لوحة نابليون", "credit": "Public Domain" },
+  "summary": "قائد عسكري وإمبراطور فرنسي، أحد أعظم العباقرة العسكريين في التاريخ، أعاد تشكيل أوروبا سياسياً وقانونياً.",
+  "notableFor": "الحروب النابليونية، والقانون المدني الفرنسي (كود نابليون)",
+  "timeline": [
+    { "year": "1769", "event": "ولادته في كورسيكا" },
+    { "year": "1799", "event": "انقلابه على حكومة الديركتوار" },
+    { "year": "1804", "event": "تتويجه إمبراطوراً" },
+    { "year": "1804", "event": "إصدار القانون المدني" },
+    { "year": "1812", "event": "حملته الفاشلة على روسيا" },
+    { "year": "1815", "event": "هزيمته في واترلو" },
+    { "year": "1821", "event": "وفاته في المنفى" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في كورسيكا لعائلة متوسطة، وتلقّى تعليماً عسكرياً في فرنسا.",
+    "career": "برز خلال الثورة الفرنسية، وقاد حملات عسكرية ناجحة، ثم أصبح إمبراطوراً وأعاد رسم خريطة أوروبا.",
+    "achievements": [
+      "الانتصارات العسكرية في أوروبا",
+      "إصدار القانون المدني الفرنسي (1804)",
+      "إصلاحات إدارية وتعليمية",
+      "تأسيس النظام التعليمي الفرنسي الحديث"
+    ],
+    "inventions": [],
+    "ideas": "الدولة المركزية الحديثة، والمواطنة القانونية، والعلمانية الإدارية.",
+    "positions": ["قنصل أول (1799-1804)", "إمبراطور الفرنسيين (1804-1815)"],
+    "quotes": []
+  },
+  "relatedFigures": ["washington", "lincoln"],
+  "sources": [
+    { "title": "Napoleon I — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Napoleon-I", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Napoleon — Fondation Napoléon", "url": "https://www.napoleon.org/en/", "publisher": "Fondation Napoléon", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الأولية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

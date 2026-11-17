@@ -1,0 +1,45 @@
+{
+  "slug": "ashoka",
+  "nameAr": "أشوكا",
+  "nameEn": "Ashoka",
+  "alternateNames": ["أشوكا العظيم", "Ashoka the Great"],
+  "birth": { "date": "~304 ق.م", "place": "باتاليبوترا، الهند", "precision": "year" },
+  "death": { "date": "~232 ق.م", "place": "باتاليبوترا، الهند" },
+  "nationality": "هندي",
+  "geography": { "regions": ["south-asia"], "countries": ["الهند"] },
+  "culturalBackground": ["asian-civilizations"],
+  "fields": { "primary": "politics", "secondary": ["religion", "human-rights"] },
+  "era": "classical",
+  "religion": { "value": "البوذية", "documented": true },
+  "political": { "value": "إمبراطور الإمبراطورية الماورية", "documented": true },
+  "image": { "url": "assets/images/figures/ashoka.webp", "alt": "تمثال أشوكا", "credit": "Public Domain" },
+  "summary": "إمبراطور هندي وحّد شبه القارة الهندية، واعتنق البوذية بعد حرب دموية، ونشر مبادئ اللاعنف والتسامح.",
+  "notableFor": "نشر البوذية وتعزيز اللاعنف والتسامح الديني في الهند القديمة",
+  "timeline": [
+    { "year": "~268 ق.م", "event": "تولّيه العرش" },
+    { "year": "~261 ق.م", "event": "حرب كالينغا وتأثيره الروحي" },
+    { "year": "~250 ق.م", "event": "نشر مراسيمه على الأعمدة والصخور" },
+    { "year": "~232 ق.م", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "حفيد مؤسس الإمبراطورية الماورية، نشأ في بلاط سياسي عسكري.",
+    "career": "وسّع الإمبراطورية عسكرياً، ثم تحوّل إلى نشر البوذية والأخلاق بعد حرب كالينغا.",
+    "achievements": [
+      "توحيد معظم شبه القارة الهندية",
+      "نشر البوذية في آسيا",
+      "تشريع مبادئ التسامح الديني والرفق بالحيوان",
+      "بناء شبكة من المستشفيات ومرافق الرعاية"
+    ],
+    "inventions": [],
+    "ideas": "الدهامّا (القانون الأخلاقي)، واللاعنف، والتسامح بين الأديان.",
+    "positions": ["إمبراطور ماوريا"],
+    "quotes": []
+  },
+  "relatedFigures": ["gandhi", "confucius"],
+  "sources": [
+    { "title": "Ashoka — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Ashoka", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Ashoka — World History Encyclopedia", "url": "https://www.worldhistory.org/Ashoka/", "publisher": "World History Encyclopedia", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "التفاصيل التاريخية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

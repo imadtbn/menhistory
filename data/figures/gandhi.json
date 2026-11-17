@@ -1,0 +1,49 @@
+{
+  "slug": "gandhi",
+  "nameAr": "المهاتما غاندي",
+  "nameEn": "Mahatma Gandhi",
+  "alternateNames": ["موهانداس كرمشاند غاندي", "Mahatma Gandhi"],
+  "birth": { "date": "1869-10-02", "place": "بوربندر، غوجارات، الهند", "precision": "exact" },
+  "death": { "date": "1948-01-30", "place": "نيودلهي، الهند" },
+  "nationality": "هندي",
+  "geography": { "regions": ["south-asia"], "countries": ["الهند", "جنوب أفريقيا"] },
+  "culturalBackground": ["asian-civilizations"],
+  "fields": { "primary": "human-rights", "secondary": ["politics", "philosophy"] },
+  "era": "20th-century",
+  "religion": { "value": "هندوسي", "documented": true },
+  "political": { "value": "قائد حركة الاستقلال الهندية", "documented": true },
+  "image": { "url": "assets/images/figures/gandhi.webp", "alt": "صورة المهاتما غاندي", "credit": "Public Domain" },
+  "summary": "زعيم سياسي وروحي هندي، قاد حركة الاستقلال الهندية عبر المقاومة السلمية والعصيان المدني، وألهم حركات تحرر عالمية.",
+  "notableFor": "فلسفة اللاعنف (ساتياغراها) وقيادة استقلال الهند",
+  "timeline": [
+    { "year": "1869", "event": "ولادته في بوربندر" },
+    { "year": "1893", "event": "انتقاله إلى جنوب أفريقيا" },
+    { "year": "1915", "event": "عودته إلى الهند" },
+    { "year": "1930", "event": "مسيرة الملح" },
+    { "year": "1947", "event": "استقلال الهند" },
+    { "year": "1948", "event": "اغتياله في نيودلهي" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في عائلة هندوسية محافظة في غوجارات، ودرس القانون في لندن.",
+    "career": "عمل محامياً في جنوب أفريقيا حيث واجه التمييز العنصري وبدأ نضاله. عاد إلى الهند عام 1915 وقاد حركة الاستقلال عبر اللاعنف.",
+    "achievements": [
+      "قيادة حركة استقلال الهند (1947)",
+      "تطوير فلسفة ساتياغراها (المقاومة السلمية)",
+      "قيادة مسيرة الملح (1930)",
+      "إلهام مارتن لوثر كينغ ونيلسون مانديلا"
+    ],
+    "inventions": [],
+    "ideas": "اللاعنف، العصيان المدني، الاعتماد على الذات، الوحدة الدينية.",
+    "positions": ["زعيم المؤتمر الوطني الهندي"],
+    "quotes": [
+      { "text": "العين بالعين تجعل العالم أعمى", "source": "مؤلفات غاندي" }
+    ]
+  },
+  "relatedFigures": ["mlk", "nelson-mandela"],
+  "sources": [
+    { "title": "Mahatma Gandhi — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Mahatma-Gandhi", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة والنضال" },
+    { "title": "Gandhi Heritage Portal", "url": "https://www.gandhiheritageportal.org/", "publisher": "Gandhi Heritage Portal", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الأولية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

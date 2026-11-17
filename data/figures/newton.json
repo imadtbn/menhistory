@@ -1,0 +1,49 @@
+{
+  "slug": "newton",
+  "nameAr": "إسحاق نيوتن",
+  "nameEn": "Isaac Newton",
+  "alternateNames": ["Sir Isaac Newton"],
+  "birth": { "date": "1643-01-04", "place": "وولسثورب، لينكولنشاير، إنجلترا", "precision": "exact" },
+  "death": { "date": "1727-03-31", "place": "كينغستون، لندن، إنجلترا" },
+  "nationality": "إنجليزي",
+  "geography": { "regions": ["western-europe"], "countries": ["إنجلترا"] },
+  "culturalBackground": ["european-civilization"],
+  "fields": { "primary": "math-physics", "secondary": ["science"] },
+  "era": "modern",
+  "religion": { "value": "مسيحي (أنجليكاني)", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/newton.webp", "alt": "لوحة إسحاق نيوتن", "credit": "Public Domain" },
+  "summary": "فيزيائي ورياضياتي إنجليزي، مؤسس الميكانيكا الكلاسيكية، وأحد أعظم العلماء في التاريخ.",
+  "notableFor": "قوانين الحركة الثلاثة، وقانون الجذب العام، وحساب التفاضل والتكامل",
+  "timeline": [
+    { "year": "1643", "event": "ولادته في وولسثورب" },
+    { "year": "1665-1667", "event": "سنواته في وولسثورب خلال الطاعون — الإلهام الأساسي" },
+    { "year": "1687", "event": "نشر «المبادئ الرياضية للفلسفة الطبيعية»" },
+    { "year": "1703", "event": "انتخابه رئيساً للجمعية الملكية" },
+    { "year": "1727", "event": "وفاته في لندن" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد يتيماً بعد وفاة والده، ونشأ في مزرعة عائلية. التحق بجامعة كامبريدج عام 1661.",
+    "career": "أستاذ الرياضيات في كامبريدج (1669)، ثم رئيس الجمعية الملكية (1703)، ومشرف على دار سك العملة البريطانية.",
+    "achievements": [
+      "صياغة قوانين الحركة الثلاثة",
+      "اكتشاف قانون الجذب العام",
+      "تطوير حساب التفاضل والتكامل (مستقلاً عن لايبنيز)",
+      "تفسير الضوء والألوان",
+      "بناء أول تلسكوب عاكس"
+    ],
+    "inventions": ["التلسكوب العاكس"],
+    "ideas": "الميكانيكا الكلاسيكية، الجاذبية الكونية، الطبيعة الجسيمية للضوء.",
+    "positions": ["أستاذ الرياضيات في كامبريدج", "رئيس الجمعية الملكية"],
+    "quotes": [
+      { "text": "إن كنت قد رأيت أبعد من الآخرين، فذلك لأنني وقفت على أكتاف عمالقة", "source": "رسالة إلى هوك، 1675" }
+    ]
+  },
+  "relatedFigures": ["einstein", "archimedes"],
+  "sources": [
+    { "title": "Isaac Newton — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Isaac-Newton", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة والإسهامات" },
+    { "title": "Isaac Newton — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/newton/", "publisher": "Stanford University", "type": "academic", "accessed": "2024-01-15", "supports": "الفلسفة الطبيعية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

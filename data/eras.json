@@ -1,0 +1,10 @@
+[
+  { "id": "ancient", "nameAr": "العصور القديمة", "range": "حتى 500 ق.م", "order": 1 },
+  { "id": "classical", "nameAr": "العصور الكلاسيكية", "range": "500 ق.م – 500 م", "order": 2 },
+  { "id": "medieval", "nameAr": "العصور الوسطى", "range": "500 – 1500 م", "order": 3 },
+  { "id": "renaissance", "nameAr": "عصر النهضة", "range": "1400 – 1600 م", "order": 4 },
+  { "id": "modern", "nameAr": "العصر الحديث", "range": "1600 – 1800 م", "order": 5 },
+  { "id": "19th-century", "nameAr": "القرن التاسع عشر", "range": "1800 – 1900 م", "order": 6 },
+  { "id": "20th-century", "nameAr": "القرن العشرون", "range": "1900 – 2000 م", "order": 7 },
+  { "id": "21st-century", "nameAr": "القرن الحادي والعشرون", "range": "2000 – الآن", "order": 8 }
+]

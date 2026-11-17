@@ -1,0 +1,45 @@
+{
+  "slug": "mansa-musa",
+  "nameAr": "مانسا موسى",
+  "nameEn": "Mansa Musa",
+  "alternateNames": ["مانسا موسى الأول", "ملك مالي"],
+  "birth": { "date": "~1280", "place": "إمبراطورية مالي", "precision": "year" },
+  "death": { "date": "~1337", "place": "إمبراطورية مالي" },
+  "nationality": "مالي",
+  "geography": { "regions": ["sub-saharan-africa"], "countries": ["مالي"] },
+  "culturalBackground": ["african-civilizations", "islamic-civilization"],
+  "fields": { "primary": "economy", "secondary": ["politics"] },
+  "era": "medieval",
+  "religion": { "value": "الإسلام", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/mansa-musa.webp", "alt": "مانسا موسى في الأطلس الكاتالوني", "credit": "Public Domain" },
+  "summary": "ملك إمبراطورية مالي في القرن الرابع عشر، ويُعدّ من أغنى الشخصيات في التاريخ بفضل ثروة الذهب والملح في مملكته.",
+  "notableFor": "حجه الشهير إلى مكة عام 1324 وما رافقه من توزيع للذهب أثّر في اقتصاد مصر",
+  "timeline": [
+    { "year": "~1312", "event": "تولّيه حكم إمبراطورية مالي" },
+    { "year": "1324", "event": "حجه إلى مكة" },
+    { "year": "1325", "event": "بناء مسجد جينغريبير ومركز تيمبوكتو العلمي" },
+    { "year": "~1337", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "لا تتوفر تفاصيل موثقة عن نشأته، لكنه ينتمي إلى سلالة كيتا الحاكمة في مالي.",
+    "career": "تولّى الحكم عام 1312، ووسّع نفوذ إمبراطورية مالي، وعزّز التجارة عبر الصحراء.",
+    "achievements": [
+      "توسيع إمبراطورية مالي",
+      "جعل تمبكتو مركزاً تجارياً وعلمياً",
+      "حجه الشهير (1324) وتوزيعه الذهب في القاهرة",
+      "دعم بناء المساجد والمدارس"
+    ],
+    "inventions": [],
+    "ideas": "تعزيز الإسلام والتجارة والتعليم في غرب أفريقيا.",
+    "positions": ["ملك إمبراطورية مالي"],
+    "quotes": []
+  },
+  "relatedFigures": ["nelson-mandela"],
+  "sources": [
+    { "title": "Mansa Musa — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Musa-I-of-Mali", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة والحج" },
+    { "title": "Mansa Musa — World History Encyclopedia", "url": "https://www.worldhistory.org/Mansa_Musa/", "publisher": "World History Encyclopedia", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "التفاصيل التاريخية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

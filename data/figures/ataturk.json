@@ -1,0 +1,49 @@
+{
+  "slug": "ataturk",
+  "nameAr": "مصطفى كمال أتاتورك",
+  "nameEn": "Mustafa Kemal Atatürk",
+  "alternateNames": ["أتاتورك", "أبو الأتراك"],
+  "birth": { "date": "1881", "place": "سالونيك، الدولة العثمانية (اليونان)", "precision": "year" },
+  "death": { "date": "1938-11-10", "place": "إسطنبول، تركيا" },
+  "nationality": "تركي",
+  "geography": { "regions": ["middle-east"], "countries": ["تركيا"] },
+  "culturalBackground": ["islamic-civilization", "european-civilization"],
+  "fields": { "primary": "politics", "secondary": ["military"] },
+  "era": "20th-century",
+  "religion": { "value": "مسلم (علماني في الفكر السياسي)", "documented": true },
+  "political": { "value": "حزب الشعب الجمهوري (CHP)", "documented": true },
+  "image": { "url": "assets/images/figures/ataturk.webp", "alt": "صورة أتاتورك", "credit": "Public Domain" },
+  "summary": "ضابط عسكري ورجل دولة تركي، مؤسس الجمهورية التركية الحديثة وأول رئيس لها، وقائد إصلاحات علمانية شاملة.",
+  "notableFor": "تأسيس الجمهورية التركية (1923)، وإصلاحات التحديث العلماني",
+  "timeline": [
+    { "year": "1881", "event": "ولادته في سالونيك" },
+    { "year": "1915", "event": "دوره في معركة غاليبولي" },
+    { "year": "1919", "event": "بدء حرب الاستقلال التركية" },
+    { "year": "1923", "event": "إعلان الجمهورية" },
+    { "year": "1934", "event": "منحه لقب «أتاتورك»" },
+    { "year": "1938", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في سالونيك (اليونان الحالية) في الدولة العثمانية، وتلقّى تعليماً عسكرياً.",
+    "career": "برز عسكرياً في الحرب العالمية الأولى، ثم قاد حرب الاستقلال، وأسّس الجمهورية التركية.",
+    "achievements": [
+      "تأسيس الجمهورية التركية (1923)",
+      "إلغاء الخلافة العثمانية (1924)",
+      "إصلاحات علمانية: إلغاء الشريعة، وإصلاح الحروف، وحقوق المرأة",
+      "تحديث تركيا سياسياً واقتصادياً"
+    ],
+    "inventions": [],
+    "ideas": "القومية التركية، والعلمانية، والتحديث، والغربنة الانتقائية.",
+    "positions": ["أول رئيس لتركيا (1923-1938)"],
+    "quotes": [
+      { "text": "السلام في الداخل، السلام في الخارج", "source": "مبدأ أتاتورك" }
+    ]
+  },
+  "relatedFigures": ["napoleon"],
+  "sources": [
+    { "title": "Kemal Atatürk — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Kemal-Ataturk", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Atatürk — Presidency of Türkiye", "url": "https://www.tccb.gov.tr/en/", "publisher": "Presidency of the Republic of Türkiye", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الرسمية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

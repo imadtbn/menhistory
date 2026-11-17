@@ -1,0 +1,51 @@
+{
+  "slug": "nelson-mandela",
+  "nameAr": "نيلسون مانديلا",
+  "nameEn": "Nelson Mandela",
+  "alternateNames": ["Nelson Rolihlahla Mandela", "ماديبا"],
+  "birth": { "date": "1918-07-18", "place": "مفيزو، كيب الشرقية، جنوب أفريقيا", "precision": "exact" },
+  "death": { "date": "2013-12-05", "place": "جوهانسبرغ، جنوب أفريقيا" },
+  "nationality": "جنوب أفريقي",
+  "geography": { "regions": ["sub-saharan-africa"], "countries": ["جنوب أفريقيا"] },
+  "culturalBackground": ["african-civilizations"],
+  "fields": { "primary": "politics", "secondary": ["human-rights"] },
+  "era": "20th-century",
+  "religion": { "value": "مسيحي (ميثودي)", "documented": true },
+  "political": { "value": "المؤتمر الوطني الأفريقي (ANC)", "documented": true },
+  "image": { "url": "assets/images/figures/nelson-mandela.webp", "alt": "صورة نيلسون مانديلا", "credit": "Public Domain" },
+  "summary": "زعيم جنوب أفريقي مناهض للفصل العنصري، وأول رئيس أسود لجنوب أفريقيا (1994–1999)، وحاصل على جائزة نوبل للسلام.",
+  "notableFor": "إنهاء نظام الفصل العنصري في جنوب أفريقيا والانتقال السلمي للديمقراطية",
+  "timeline": [
+    { "year": "1918", "event": "ولادته في مفيزو" },
+    { "year": "1944", "event": "انضمامه إلى المؤتمر الوطني الأفريقي" },
+    { "year": "1962", "event": "اعتقاله" },
+    { "year": "1964", "event": "الحكم عليه بالسجن المؤبد" },
+    { "year": "1990", "event": "إطلاق سراحه بعد 27 عاماً" },
+    { "year": "1993", "event": "حصوله على جائزة نوبل للسلام" },
+    { "year": "1994", "event": "انتخابه رئيساً لجنوب أفريقيا" },
+    { "year": "2013", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في قرية مفيزو، درس القانون في جامعة فورت هير وجامعة ويتواترسراند.",
+    "career": "انضم إلى ANC عام 1944 وقاد النضال ضد الفصل العنصري. سُجن 27 عاماً، ثم أصبح أول رئيس أسود لجنوب أفريقيا.",
+    "achievements": [
+      "إنهاء نظام الفصل العنصري",
+      "تأسيس جنوب أفريقيا الديمقراطية",
+      "جائزة نوبل للسلام (1993)",
+      "رمز عالمي للمصالحة والعدالة"
+    ],
+    "inventions": [],
+    "ideas": "المصالحة الوطنية، اللاعنف في المراحل الأخيرة، العدالة الانتقالية.",
+    "positions": ["رئيس جنوب أفريقيا (1994–1999)", "رئيس ANC (1991–1997)"],
+    "quotes": [
+      { "text": "التعليم أقوى سلاح يمكنك استخدامه لتغيير العالم", "source": "خطاب، 1990" }
+    ]
+  },
+  "relatedFigures": ["gandhi", "mlk"],
+  "sources": [
+    { "title": "Nelson Mandela — Nobel Prize", "url": "https://www.nobelprize.org/prizes/peace/1993/mandela/facts/", "publisher": "Nobel Foundation", "type": "institutional", "accessed": "2024-01-15", "supports": "السيرة والجائزة" },
+    { "title": "Nelson Mandela Foundation", "url": "https://www.nelsonmandela.org/", "publisher": "Nelson Mandela Foundation", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الأولية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

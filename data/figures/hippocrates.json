@@ -1,0 +1,44 @@
+{
+  "slug": "hippocrates",
+  "nameAr": "أبقراط",
+  "nameEn": "Hippocrates",
+  "alternateNames": ["Hippocrates of Kos"],
+  "birth": { "date": "~460 ق.م", "place": "جزيرة كوس، اليونان", "precision": "year" },
+  "death": { "date": "~370 ق.م", "place": "لاريسا، اليونان" },
+  "nationality": "يوناني",
+  "geography": { "regions": ["western-europe"], "countries": ["اليونان"] },
+  "culturalBackground": ["greek-roman"],
+  "fields": { "primary": "medicine", "secondary": ["philosophy"] },
+  "era": "classical",
+  "religion": { "value": "الديانة اليونانية القديمة", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/hippocrates.webp", "alt": "تمثال أبقراط", "credit": "Public Domain" },
+  "summary": "طبيب يوناني، يُلقّب بـ«أبي الطب»، أسّس الطب كعلم قائم على الملاحظة والتجربة، وارتبط اسمه بقسم الأطباء.",
+  "notableFor": "قسم أبقراط، وتأسيس الطب التجريبي",
+  "timeline": [
+    { "year": "~460 ق.م", "event": "ولادته في كوس" },
+    { "year": "~430 ق.م", "event": "معالجته لوباء أثينا" },
+    { "year": "~370 ق.م", "event": "وفاته في لاريسا" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في جزيرة كوس لعائلة طبية، وتلقّى تعليماً في الطب والفلسفة.",
+    "career": "سافر بين اليونان ومصر، وعلّم الطب في مدرسة كوس الشهيرة.",
+    "achievements": [
+      "فصل الطب عن الدين والخرافة",
+      "تطوير المنهج التجريبي في الطب",
+      "تأليف «مجموعة أبقراط» الطبية",
+      "صياغة قسم أبقراط الأخلاقي"
+    ],
+    "inventions": ["منهج الملاحظة السريرية"],
+    "ideas": "المرض نتيجة طبيعية لا إلهية، ونظرية الأمزجة الأربعة (تأثير طويل رغم عدم دقتها).",
+    "positions": ["طبيب ومعلم"],
+    "quotes": []
+  },
+  "relatedFigures": ["socrates", "al-razi", "ibn-sina"],
+  "sources": [
+    { "title": "Hippocrates — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Hippocrates", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Hippocratic Corpus — World History Encyclopedia", "url": "https://www.worldhistory.org/Hippocrates/", "publisher": "World History Encyclopedia", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "الإسهامات الطبية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

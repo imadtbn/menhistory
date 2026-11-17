@@ -1,0 +1,46 @@
+{
+  "slug": "lincoln",
+  "nameAr": "أبراهام لينكولن",
+  "nameEn": "Abraham Lincoln",
+  "alternateNames": [],
+  "birth": { "date": "1809-02-12", "place": "هودجفيل، كنتاكي، أمريكا", "precision": "exact" },
+  "death": { "date": "1865-04-15", "place": "واشنطن العاصمة" },
+  "nationality": "أمريكي",
+  "geography": { "regions": ["north-america"], "countries": ["الولايات المتحدة"] },
+  "culturalBackground": ["american-civilization"],
+  "fields": { "primary": "politics", "secondary": ["human-rights"] },
+  "era": "19th-century",
+  "religion": { "value": "مسيحي (غير منتمٍ لكنيسة محددة)", "documented": true },
+  "political": { "value": "الحزب الجمهوري", "documented": true },
+  "image": { "url": "assets/images/figures/lincoln.webp", "alt": "صورة أبراهام لينكولن", "credit": "Public Domain" },
+  "summary": "الرئيس السادس عشر للولايات المتحدة، قاد البلاد خلال الحرب الأهلية، وأصدر إعلان تحرير العبيد.",
+  "notableFor": "إلغاء العبيد، والحفاظ على وحدة الاتحاد الأمريكي، وخطاب غيتيسبيرغ",
+  "timeline": [
+    { "year": "1809", "event": "ولادته في كنتاكي" },
+    { "year": "1860", "event": "انتخابه رئيساً" },
+    { "year": "1863", "event": "إعلان تحرير العبيد" },
+    { "year": "1865", "event": "اغتياله في واشنطن" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في عائلة فقيرة على الحدود الأمريكية، وتعلّم ذاتياً وأصبح محامياً.",
+    "career": "عمل محامياً ثم نائباً ثم رئيساً، وقاد الاتحاد خلال الحرب الأهلية الأمريكية.",
+    "achievements": [
+      "إعلان تحرير العبيد (1863)",
+      "الحفاظ على وحدة الاتحاد",
+      "خطاب غيتيسبيرغ — من أشهر الخطب في التاريخ"
+    ],
+    "inventions": [],
+    "ideas": "الديمقراطية والحكم بالشعب، والمساواة القانونية، والوحدة الوطنية.",
+    "positions": ["رئيس الولايات المتحدة (1861-1865)"],
+    "quotes": [
+      { "text": "حكومة الشعب، بالشعب، وللشعب، لن تزول من على الأرض", "source": "خطاب غيتيسبيرغ" }
+    ]
+  },
+  "relatedFigures": ["washington", "mlk"],
+  "sources": [
+    { "title": "Abraham Lincoln — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Abraham-Lincoln", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Abraham Lincoln — Library of Congress", "url": "https://www.loc.gov/collections/abraham-lincoln-papers/", "publisher": "Library of Congress", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الأولية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

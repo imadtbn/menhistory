@@ -1,0 +1,45 @@
+{
+  "slug": "sun-tzu",
+  "nameAr": "صن تزو",
+  "nameEn": "Sun Tzu",
+  "alternateNames": ["Sunzi", "صن وو"],
+  "birth": { "date": "~544 ق.م", "place": "ولاية تشي، الصين", "precision": "year" },
+  "death": { "date": "~496 ق.م", "place": "الصين" },
+  "nationality": "صيني",
+  "geography": { "regions": ["east-asia"], "countries": ["الصين"] },
+  "culturalBackground": ["asian-civilizations"],
+  "fields": { "primary": "military", "secondary": ["philosophy"] },
+  "era": "classical",
+  "religion": null,
+  "political": null,
+  "image": { "url": "assets/images/figures/sun-tzu.webp", "alt": "رسم تقليدي لصن تزو", "credit": "Public Domain" },
+  "summary": "استراتيجي عسكري صيني، مؤلف «فن الحرب»، أحد أعمق الكتب في الاستراتيجيا العسكرية عبر التاريخ.",
+  "notableFor": "كتاب «فن الحرب» — مرجع عالمي في الاستراتيجيا",
+  "timeline": [
+    { "year": "~544 ق.م", "event": "ولادته" },
+    { "year": "~512 ق.م", "event": "خدمته لدى ملك وو" },
+    { "year": "~496 ق.م", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في ولاية تشي، ولا تتوفر تفاصيل كثيرة موثقة عن نشأته.",
+    "career": "عمل مستشاراً عسكرياً لملك وو، وتُنسب إليه الحملات التي حققت انتصارات كبيرة.",
+    "achievements": [
+      "تأليف «فن الحرب» — 13 فصلاً في الاستراتيجيا العسكرية",
+      "تأسيس تقاليد الاستراتيجيا في شرق آسيا",
+      "تأثير مستمر على الفكر العسكري والسياسي والاقتصادي"
+    ],
+    "inventions": [],
+    "ideas": "الانتصار دون قتال، والخداع، ومعرفة العدو والنفس، وتجنب الحرب الطويلة.",
+    "positions": ["مستشار عسكري لملك وو"],
+    "quotes": [
+      { "text": "اعرف عدوك واعرف نفسك، فتنتصر في مئة معركة", "source": "فن الحرب" }
+    ]
+  },
+  "relatedFigures": ["confucius", "genghis-khan"],
+  "sources": [
+    { "title": "Sun Tzu — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Sunzi", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "The Art of War — World History Encyclopedia", "url": "https://www.worldhistory.org/The_Art_of_War/", "publisher": "World History Encyclopedia", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "الكتاب" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

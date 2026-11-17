@@ -1,0 +1,34 @@
+{
+  "fields": [
+    { "id": "science", "nameAr": "العلوم والبحث العلمي", "icon": "🔬" },
+    { "id": "medicine", "nameAr": "الطب والصيدلة", "icon": "⚕️" },
+    { "id": "math-physics", "nameAr": "الرياضيات والفيزياء", "icon": "📐" },
+    { "id": "technology", "nameAr": "التكنولوجيا والذكاء الاصطناعي", "icon": "💻" },
+    { "id": "engineering", "nameAr": "الاختراعات والهندسة", "icon": "⚙️" },
+    { "id": "economy", "nameAr": "الصناعة والاقتصاد وريادة الأعمال", "icon": "📈" },
+    { "id": "politics", "nameAr": "السياسة والحكم والدبلوماسية", "icon": "🏛️" },
+    { "id": "religion", "nameAr": "الدين والروحانيات", "icon": "🕌" },
+    { "id": "philosophy", "nameAr": "الفلسفة والفكر", "icon": "💭" },
+    { "id": "history", "nameAr": "التاريخ والحضارات", "icon": "📜" },
+    { "id": "sports", "nameAr": "الرياضة", "icon": "🏅" },
+    { "id": "arts", "nameAr": "الفن والموسيقى", "icon": "🎨" },
+    { "id": "literature", "nameAr": "الأدب والشعر واللغة", "icon": "📖" },
+    { "id": "media", "nameAr": "الإعلام والصحافة", "icon": "📰" },
+    { "id": "humanitarian", "nameAr": "العمل الإنساني والخيري", "icon": "🤝" },
+    { "id": "human-rights", "nameAr": "حقوق الإنسان والعدالة", "icon": "⚖️" },
+    { "id": "exploration", "nameAr": "الاستكشاف والجغرافيا", "icon": "🧭" },
+    { "id": "education", "nameAr": "التعليم والتربية", "icon": "🎓" },
+    { "id": "military", "nameAr": "العلوم العسكرية والاستراتيجية", "icon": "🛡️" },
+    { "id": "environment", "nameAr": "البيئة والاستدامة", "icon": "🌱" }
+  ],
+  "culturalBackgrounds": [
+    { "id": "ancient-civilizations", "nameAr": "الحضارات القديمة" },
+    { "id": "islamic-civilization", "nameAr": "الحضارة الإسلامية" },
+    { "id": "arab-civilization", "nameAr": "الحضارة العربية" },
+    { "id": "greek-roman", "nameAr": "الحضارة اليونانية والرومانية" },
+    { "id": "asian-civilizations", "nameAr": "الحضارات الآسيوية" },
+    { "id": "african-civilizations", "nameAr": "الحضارات الأفريقية" },
+    { "id": "european-civilization", "nameAr": "الحضارة الأوروبية" },
+    { "id": "american-civilization", "nameAr": "الحضارة الأمريكية" }
+  ]
+}

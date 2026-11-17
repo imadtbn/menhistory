@@ -1,0 +1,45 @@
+{
+  "slug": "socrates",
+  "nameAr": "سقراط",
+  "nameEn": "Socrates",
+  "alternateNames": ["Socrates"],
+  "birth": { "date": "~470 ق.م", "place": "أثينا، اليونان", "precision": "year" },
+  "death": { "date": "399 ق.م", "place": "أثينا، اليونان" },
+  "nationality": "أثيني",
+  "geography": { "regions": ["western-europe"], "countries": ["اليونان"] },
+  "culturalBackground": ["greek-roman"],
+  "fields": { "primary": "philosophy", "secondary": ["education"] },
+  "era": "classical",
+  "religion": { "value": "الديانة اليونانية القديمة", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/socrates.webp", "alt": "تمثال سقراط", "credit": "Public Domain" },
+  "summary": "فيلسوف يوناني، يُعدّ مؤسس الفلسفة الغربية، طوّر المنهج الجدلي (الديالكتيك) وأثّر في أفلاطون وأرسطو.",
+  "notableFor": "المنهج السقراطي في الحوار الفلسفي",
+  "timeline": [
+    { "year": "~470 ق.م", "event": "ولادته في أثينا" },
+    { "year": "431-404 ق.م", "event": "مشاركته في الحرب البيلوبونيزية" },
+    { "year": "399 ق.م", "event": "محاكمته وتناوله السم" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في أثينا لعائلة متوسطة، وتلقّى تعليماً تقليدياً في الموسيقى والرياضيات.",
+    "career": "لم يؤسس مدرسة، بل علّم في الأماكن العامة عبر الحوار، رافضاً أجر التعليم.",
+    "achievements": [
+      "تطوير المنهج السقراطي (الحوار الجدلي)",
+      "تأسيس تقاليد الفلسفة الأخلاقية",
+      "تأثير مباشر على أفلاطون وأرسطو"
+    ],
+    "inventions": [],
+    "ideas": "«اعرف نفسك»، أن الفضيلة معرفة، والجهل أصل الشر.",
+    "positions": [],
+    "quotes": [
+      { "text": "الحياة غير المفحوصة لا تستحق أن تُعاش", "source": "دفاع سقراط لأفلاطون" }
+    ]
+  },
+  "relatedFigures": ["confucius", "archimedes", "hippocrates"],
+  "sources": [
+    { "title": "Socrates — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/socrates/", "publisher": "Stanford University", "type": "academic", "accessed": "2024-01-15", "supports": "الفلسفة والحياة" },
+    { "title": "Socrates — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Socrates", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "salah-al-din",
+  "nameAr": "صلاح الدين الأيوبي",
+  "nameEn": "Saladin",
+  "alternateNames": ["صلاح الدين", "الناصر صلاح الدين يوسف", "Saladin"],
+  "birth": { "date": "1137", "place": "تكريت، العراق", "precision": "year" },
+  "death": { "date": "1193", "place": "دمشق، سوريا" },
+  "nationality": "كردي",
+  "geography": { "regions": ["middle-east"], "countries": ["العراق", "سوريا", "مصر"] },
+  "culturalBackground": ["islamic-civilization"],
+  "fields": { "primary": "military", "secondary": ["politics"] },
+  "era": "medieval",
+  "religion": { "value": "الإسلام (سني)", "documented": true },
+  "political": { "value": "مؤسس الدولة الأيوبية", "documented": true },
+  "image": { "url": "assets/images/figures/salah-al-din.webp", "alt": "لوحة تخيلية لصلاح الدين", "credit": "Public Domain" },
+  "summary": "قائد عسكري وسياسي مسلم، وحّد مصر والشام، وحرّر القدس من الصليبيين عام 1187 بعد معركة حطين.",
+  "notableFor": "تحرير القدس عام 1187، وتوحيد مصر والشام",
+  "timeline": [
+    { "year": "1137", "event": "ولادته في تكريت" },
+    { "year": "1169", "event": "تولّيه وزارة مصر" },
+    { "year": "1174", "event": "تأسيس الدولة الأيوبية" },
+    { "year": "1187", "event": "معركة حطين وتحرير القدس" },
+    { "year": "1193", "event": "وفاته في دمشق" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في تكريت لعائلة كردية عسكرية، ونشأ في بلاط عمه أسد الدين شيركوه.",
+    "career": "برز عسكرياً وسياسياً في مصر، ثم وحّد مصر والشام والحجاز تحت حكمه، وواجه الصليبيين.",
+    "achievements": [
+      "توحيد مصر والشام والحجاز",
+      "الانتصار في معركة حطين (1187)",
+      "تحرير القدس ومعظم فلسطين",
+      "تأسيس الدولة الأيوبية"
+    ],
+    "inventions": [],
+    "ideas": "الجهاد العسكري دفاعاً عن المسلمين، والتسامح مع غير المقاتلين (عند تحرير القدس).",
+    "positions": ["سلطان مصر والشام", "مؤسس الدولة الأيوبية"],
+    "quotes": []
+  },
+  "relatedFigures": ["ibn-khaldun", "genghis-khan"],
+  "sources": [
+    { "title": "Saladin — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Saladin", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Saladin — World History Encyclopedia", "url": "https://www.worldhistory.org/Saladin/", "publisher": "World History Encyclopedia", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "الحملات العسكرية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

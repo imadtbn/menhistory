@@ -1,0 +1,47 @@
+{
+  "slug": "confucius",
+  "nameAr": "كونفوشيوس",
+  "nameEn": "Confucius",
+  "alternateNames": ["كونغ فوتسي", "Kong Qiu"],
+  "birth": { "date": "551 ق.م", "place": "تشوفو، ولاية لو، الصين", "precision": "year" },
+  "death": { "date": "479 ق.م", "place": "ولاية لو، الصين" },
+  "nationality": "صيني",
+  "geography": { "regions": ["east-asia"], "countries": ["الصين"] },
+  "culturalBackground": ["asian-civilizations"],
+  "fields": { "primary": "philosophy", "secondary": ["education"] },
+  "era": "classical",
+  "religion": { "value": "فلسفة كونفوشيوسية (غير دينية)", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/confucius.webp", "alt": "رسم تقليدي لكونفوشيوس", "credit": "Public Domain" },
+  "summary": "فيلسوف ومعلّم صيني، أسّس مدرسة فكرية أثرت في الحضارة الصينية وشرق آسيا لأكثر من ألفي عام.",
+  "notableFor": "تأسيس المدرسة الكونفوشيوسية التي شكلت الثقافة والمجتمع الصيني",
+  "timeline": [
+    { "year": "551 ق.م", "event": "ولادته في ولاية لو" },
+    { "year": "501 ق.م", "event": "تعيينه حاكماً لمدينة تشونغدو" },
+    { "year": "497 ق.م", "event": "بدء رحلاته بين الولايات" },
+    { "year": "479 ق.م", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في عائلة متواضعة، وتلقّى تعليماً تقليدياً في الطقوس والموسيقى والشعر.",
+    "career": "عمل موظفاً حكومياً ثم معلّماً، وطوّر فلسفة أخلاقية وسياسية شاملة.",
+    "achievements": [
+      "تأسيس المدرسة الكونفوشيوسية",
+      "تدوين «المحاورات» (Analects) — أعظم نصوصه",
+      "صياغة مبادئ الحكم الأخلاقي والعلاقات الاجتماعية",
+      "تأثير فكري استمر لأكثر من 2500 عام"
+    ],
+    "inventions": [],
+    "ideas": "الفضيلة (Ren)، واللياقة (Li)، والتعليم للجميع، والحكم بالقدوة الأخلاقية.",
+    "positions": ["مستشار سياسي", "معلّم"],
+    "quotes": [
+      { "text": "لا تفعل بالآخرين ما لا تريد أن يفعلوه بك", "source": "المحاورات" }
+    ]
+  },
+  "relatedFigures": ["socrates", "sun-tzu"],
+  "sources": [
+    { "title": "Confucius — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/confucius/", "publisher": "Stanford University", "type": "academic", "accessed": "2024-01-15", "supports": "الفلسفة" },
+    { "title": "Confucius — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Confucius", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

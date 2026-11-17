@@ -1,1 +1,179 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رجال عبر التاريخ — موسوعة عالمية للشخصيات المؤثرة</title>
+  <meta name="description"
+    content="موسوعة عربية شاملة تستعرض الشخصيات التي تركت أثراً في تاريخ البشرية، من الحضارات القديمة إلى العصر الحديث.">
+  <link rel="canonical" href="https://imadtbn.github.io/menhistory/">
+  <meta property="og:title" content="رجال عبر التاريخ — Men Throughout History">
+  <meta property="og:description" content="موسوعة عالمية للشخصيات المؤثرة في التاريخ.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://imadtbn.github.io/menhistory/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="manifest" href="../manifest.json">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "رجال عبر التاريخ",
+    "alternateName": "Men Throughout History",
+    "url": "https://imadtbn.github.io/menhistory/",
+    "inLanguage": "ar",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://imadtbn.github.io/menhistory/figures/index.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">MTH</span>
+        <span class="brand-text">رجال عبر التاريخ<small>Men Throughout History</small></span>
+      </a>
+      <nav aria-label="القائمة الرئيسية">
+        <ul class="nav-list" id="nav-list">
+          <li><a href="index.html" aria-current="page">الرئيسية</a></li>
+          <li><a href="figures/index.html">الشخصيات</a></li>
+          <li><a href="categories/index.html">المجالات</a></li>
+          <li><a href="regions/index.html">المناطق</a></li>
+          <li><a href="eras/index.html">الحقب</a></li>
+          <li><a href="pages/about.html">عن الموسوعة</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="تبديل الوضع الليلي">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" aria-label="فتح القائمة" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 6h18M3 12h18M3 18h18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <span class="hero-eyebrow">✦ موسوعة عالمية موثقة</span>
+        <h1>اكتشف رجالاً <span class="accent">غيّروا التاريخ</span></h1>
+        <p class="hero-lead">من الحضارات القديمة إلى العصر الحديث — استعرض الشخصيات التي تركت أثراً في العلوم والفكر
+          والسياسة والفن، وفق مصادر موثوقة.</p>
+
+        <div class="hero-search" style="position:relative">
+          <span class="search-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+          </span>
+          <input id="home-search" type="search" placeholder="ابحث بالاسم، المجال، الدولة..."
+            aria-label="بحث في الموسوعة">
+          <div class="search-popover" id="home-search-popover"></div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat"><b id="stat-figures">0</b><span>شخصية</span></div>
+          <div class="stat"><b id="stat-fields">0</b><span>مجال</span></div>
+          <div class="stat"><b id="stat-regions">0</b><span>منطقة</span></div>
+          <div class="stat"><b id="stat-eras">0</b><span>حقبة</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">شخصيات مميزة<small>اختيارات تحريرية من أبرز الشخصيات</small></h2>
+          <a class="section-link" href="figures/index.html">عرض الكل ←</a>
+        </div>
+        <div class="cards-grid" id="featured-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--bg-alt)">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">الأكثر استعراضاً<small>الأكثر بحثاً بين الزوار</small></h2>
+        </div>
+        <div class="cards-grid" id="most-viewed-grid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">أضيفت حديثاً<small>أحدث الشخصيات المنشورة</small></h2>
+        </div>
+        <div class="cards-grid" id="recent-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand" style="color:#fff">
+            <span class="brand-mark">MTH</span>
+            <span class="brand-text">رجال عبر التاريخ</span>
+          </div>
+          <p>موسوعة عربية موثقة للشخصيات المؤثرة في تاريخ البشرية.</p>
+        </div>
+        <div class="footer-col">
+          <h4>استكشاف</h4>
+          <ul>
+            <li><a href="figures/index.html">الشخصيات</a></li>
+            <li><a href="categories/index.html">المجالات</a></li>
+            <li><a href="regions/index.html">المناطق</a></li>
+            <li><a href="eras/index.html">الحقب</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>عن الموسوعة</h4>
+          <ul>
+            <li><a href="pages/about.html">حول</a></li>
+            <li><a href="pages/methodology.html">المنهجية</a></li>
+            <li><a href="pages/sources.html">المصادر</a></li>
+            <li><a href="pages/privacy.html">الخصوصية</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>تواصل</h4>
+          <ul>
+            <li><a href="https://github.com/imadtbn/menhistory" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2024 رجال عبر التاريخ — Men Throughout History. المحتوى موثق وفق مصادر كل شخصية.
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+{
+  "slug": "ibn-sina",
+  "nameAr": "ابن سينا",
+  "nameEn": "Ibn Sina (Avicenna)",
+  "alternateNames": ["أبو علي الحسين بن عبد الله بن سينا", "الشيخ الرئيس", "Avicenna"],
+  "birth": { "date": "980", "place": "أفشنة، قرب بخارى، بلاد فارس", "precision": "year" },
+  "death": { "date": "1037", "place": "همدان، بلاد فارس" },
+  "nationality": "فارسي",
+  "geography": { "regions": ["central-asia", "middle-east"], "countries": ["أوزبكستان", "إيران"] },
+  "culturalBackground": ["islamic-civilization"],
+  "fields": { "primary": "medicine", "secondary": ["philosophy", "science"] },
+  "era": "medieval",
+  "religion": { "value": "الإسلام", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/ibn-sina.webp", "alt": "لوحة تخيلية لابن سينا", "credit": "Public Domain" },
+  "summary": "طبيب وفيلسوف وعالم مسلم، يُعد من أعظم أطباء التاريخ، ومؤلف «القانون في الطب» الذي ظل مرجعاً في الجامعات الأوروبية لقرون.",
+  "notableFor": "كتاب «القانون في الطب» — موسوعة طبية استُخدمت مرجعاً في أوروبا حتى القرن السابع عشر",
+  "timeline": [
+    { "year": "980", "event": "ولادته في أفشنة قرب بخارى" },
+    { "year": "997", "event": "أتمّ حفظ القرآن ودرس المنطق والفلسفة" },
+    { "year": "1022", "event": "أتمّ «القانون في الطب»" },
+    { "year": "1037", "event": "وفاته في همدان" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد ابن سينا في قرية أفشنة قرب بخارى (في أوزبكستان الحالية) عام 980م. حفظ القرآن في سن العاشرة، ودرس الفقه والمنطق والفلسفة والعلوم الطبيعية. أظهر نبوغاً مبكراً في الطب، وعُيّن طبيباً لبلاط الأمير الساماني نوح بن منصور في سن السابعة عشرة.",
+    "career": "تنقّل بين بلاطات الأمراء في بلاد فارس بعد سقوط الدولة السامانية، فعمل وزيراً وطبيباً في جرجان والري وهمدان وأصفهان. كتب معظم أعماله خلال هذه الفترة المضطربة، جامعاً بين الممارسة الطبية والتأليف الفلسفي.",
+    "achievements": [
+      "تأليف «القانون في الطب» — موسوعة طبية شاملة في خمسة أجزاء",
+      "تأليف «الشفاء» — موسوعة فلسفية وعلمية ضخمة",
+      "تطوير منهج تجريبي في الطب والملاحظة السريرية",
+      "مساهمات في علم الأدوية ووصف الأمراض"
+    ],
+    "inventions": [
+      "تطوير أدوات طبية دقيقة",
+      "أساليب مبتكرة في تشخيص الأمراض"
+    ],
+    "ideas": "دمج الفلسفة الأرسطية بالأفكار الإسلامية، وقدّم نظرية في المعرفة قائمة على التجربة والبرهان. تأثر به فلاسفة أوروبيون كتوما الأكويني وروجر باكون.",
+    "positions": ["طبيب البلاط الساماني", "وزير في همدان", "طبيب الأمير البويهي"],
+    "quotes": []
+  },
+  "relatedFigures": ["al-razi", "ibn-khaldun"],
+  "sources": [
+    { "title": "Avicenna — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Avicenna", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة العامة والتواريخ" },
+    { "title": "Ibn Sina — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/ibn-sina/", "publisher": "Stanford University", "type": "academic", "accessed": "2024-01-15", "supports": "الفلسفة والميتافيزيقا" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

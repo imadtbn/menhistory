@@ -1,0 +1,45 @@
+{
+  "slug": "genghis-khan",
+  "nameAr": "جنكيز خان",
+  "nameEn": "Genghis Khan",
+  "alternateNames": ["تيموجين", "Temüjin"],
+  "birth": { "date": "~1162", "place": "سهوب منغوليا", "precision": "year" },
+  "death": { "date": "1227", "place": "منغوليا" },
+  "nationality": "منغولي",
+  "geography": { "regions": ["east-asia", "central-asia"], "countries": ["منغوليا"] },
+  "culturalBackground": ["asian-civilizations"],
+  "fields": { "primary": "military", "secondary": ["politics"] },
+  "era": "medieval",
+  "religion": { "value": "التنغرية (شامانية منغولية)", "documented": true },
+  "political": { "value": "مؤسس الإمبراطورية المغولية", "documented": true },
+  "image": { "url": "assets/images/figures/genghis-khan.webp", "alt": "لوحة تخيلية لجنكيز خان", "credit": "Public Domain" },
+  "summary": "قائد عسكري منغولي، وحّد قبائل السهوب وأسّس أكبر إمبراطورية متصلة في التاريخ من حيث المساحة.",
+  "notableFor": "تأسيس الإمبراطورية المغولية، أكبر إمبراطورية برية متصلة في التاريخ",
+  "timeline": [
+    { "year": "~1162", "event": "ولادته باسم تيموجين" },
+    { "year": "1206", "event": "إعلانه جنكيز خان (الخان الأعظم)" },
+    { "year": "1215", "event": "الاستيلاء على بكين" },
+    { "year": "1227", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في عائلة فقيرة من السهوب المنغولية، عاش طفولة قاسية بعد مقتل والده.",
+    "career": "وحّد القبائل المنغولية بالقوة والدبلوماسية، ثم قاد حملات عسكرية واسعة نحو الصين ووسط آسيا.",
+    "achievements": [
+      "توحيد القبائل المنغولية",
+      "تأسيس الإمبراطورية المغولية",
+      "تأسيس نظام قانوني (الياسا)",
+      "تسهيل التجارة عبر طريق الحرير"
+    ],
+    "inventions": ["نظام عسكري عشري فعال"],
+    "ideas": "الانضباط العسكري، والتسامح الديني النسبي، وتوحيد السهوب.",
+    "positions": ["الخان الأعظم للإمبراطورية المغولية"],
+    "quotes": []
+  },
+  "relatedFigures": ["salah-al-din", "sun-tzu"],
+  "sources": [
+    { "title": "Genghis Khan — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Genghis-Khan", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Genghis Khan — World History Encyclopedia", "url": "https://www.worldhistory.org/Genghis_Khan/", "publisher": "World History Encyclopedia", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "الحملات" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

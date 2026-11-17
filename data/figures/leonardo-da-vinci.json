@@ -1,0 +1,46 @@
+{
+  "slug": "leonardo-da-vinci",
+  "nameAr": "ليوناردو دافنشي",
+  "nameEn": "Leonardo da Vinci",
+  "alternateNames": ["Leonardo di ser Piero da Vinci"],
+  "birth": { "date": "1452-04-15", "place": "فينشي، إيطاليا", "precision": "exact" },
+  "death": { "date": "1519-05-02", "place": "كلو لوسيه، فرنسا" },
+  "nationality": "إيطالي",
+  "geography": { "regions": ["western-europe"], "countries": ["إيطاليا", "فرنسا"] },
+  "culturalBackground": ["european-civilization"],
+  "fields": { "primary": "arts", "secondary": ["engineering", "science"] },
+  "era": "renaissance",
+  "religion": { "value": "كاثوليكي", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/leonardo-da-vinci.webp", "alt": "بورتريه ذاتي لليوناردو", "credit": "Public Domain" },
+  "summary": "فنان وعالم ومهندس إيطالي، أيقونة عصر النهضة، ورمز «الإنسان الشامل» بفضل إسهاماته في الفن والهندسة والتشريح.",
+  "notableFor": "لوحتا «الموناليزا» و«العشاء الأخير»، ودفاتر الملاحظات العلمية",
+  "timeline": [
+    { "year": "1452", "event": "ولادته في فينشي" },
+    { "year": "1482", "event": "انتقاله إلى ميلانو" },
+    { "year": "1498", "event": "إتمام «العشاء الأخير»" },
+    { "year": "1503-1519", "event": "العمل على «الموناليزا»" },
+    { "year": "1519", "event": "وفاته في فرنسا" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد خارج إطار الزواج في فينشي، وتلقّى تعليماً مبكراً في الرسم في مشغل فيروكيو بفلورنسا.",
+    "career": "تنقّل بين فلورنسا وميلانو وروما وفرنسا، وعمل لدى أسياد عصر النهضة كمهندس وفنان ومصمم.",
+    "achievements": [
+      "رسم «الموناليزا» و«العشاء الأخير»",
+      "تشريح الجثث ورسم دقيق للجسم البشري",
+      "تصميم آلات طيران ومركبات حربية",
+      "إسهامات في الهندسة المائية والهيدروليكا"
+    ],
+    "inventions": ["آلات طيران", "دروع عسكرية", "مضخات مائية"],
+    "ideas": "الجمع بين الفن والعلم، وملاحظة الطبيعة بمنهج تجريبي.",
+    "positions": ["مهندس لدى دوق ميلانو", "رسام البلاط الفرنسي"],
+    "quotes": []
+  },
+  "relatedFigures": ["newton", "archimedes"],
+  "sources": [
+    { "title": "Leonardo da Vinci — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Leonardo-da-Vinci", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Leonardo da Vinci — The Met", "url": "https://www.metmuseum.org/toah/hd/leon/hd_leon.htm", "publisher": "The Metropolitan Museum of Art", "type": "institutional", "accessed": "2024-01-15", "supports": "الفن" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

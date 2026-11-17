@@ -1,0 +1,46 @@
+{
+  "slug": "archimedes",
+  "nameAr": "أرخميدس",
+  "nameEn": "Archimedes",
+  "alternateNames": ["Archimedes of Syracuse"],
+  "birth": { "date": "~287 ق.م", "place": "سيراكيوز، صقلية", "precision": "year" },
+  "death": { "date": "~212 ق.م", "place": "سيراكيوز" },
+  "nationality": "يوناني",
+  "geography": { "regions": ["western-europe"], "countries": ["إيطاليا"] },
+  "culturalBackground": ["greek-roman"],
+  "fields": { "primary": "math-physics", "secondary": ["engineering"] },
+  "era": "classical",
+  "religion": { "value": "الديانة اليونانية القديمة", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/archimedes.webp", "alt": "رسم تخيلي لأرخميدس", "credit": "Public Domain" },
+  "summary": "رياضياتي وفيزيائي ومهندس يوناني، أحد أعظم علماء العصور القديمة، أسّس مبادئ الميكانيكا والهيدروستاتيكا.",
+  "notableFor": "قانون الطفو، ومبدأ الرافعة، وحساب مساحة الدائرة",
+  "timeline": [
+    { "year": "~287 ق.م", "event": "ولادته في سيراكيوز" },
+    { "year": "~250 ق.م", "event": "تأليف كتاب «عن الكرة والأسطوانة»" },
+    { "year": "~212 ق.م", "event": "مقتله أثناء سقوط سيراكيوز" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في سيراكيوز، ودرس في الإسكندرية، ثم عاد إلى مسقط رأسه.",
+    "career": "كرّس حياته للرياضيات والفيزياء، وطوّر أسلحة دفاعية لمدينته ضد الرومان.",
+    "achievements": [
+      "قانون الطفو (مبدأ أرخميدس)",
+      "قانون الرافعة",
+      "طرق حساب مساحة الدائرة وحجم الكرة",
+      "تصميم آلات حربية دفاعية"
+    ],
+    "inventions": ["البرغي الأرخميدي", "آلات الرفع"],
+    "ideas": "تطبيق الرياضيات في الفيزياء والهندسة، وتأسيس الميكانيكا النظرية.",
+    "positions": [],
+    "quotes": [
+      { "text": "أعطني نقطة ارتكاز وأرفع الأرض", "source": "مؤلفات أرخميدس" }
+    ]
+  },
+  "relatedFigures": ["newton", "al-khwarizmi"],
+  "sources": [
+    { "title": "Archimedes — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Archimedes", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة والإسهامات" },
+    { "title": "Archimedes — MacTutor History of Mathematics", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/", "publisher": "University of St Andrews", "type": "academic", "accessed": "2024-01-15", "supports": "الرياضيات" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

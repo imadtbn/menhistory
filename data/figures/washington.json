@@ -1,0 +1,46 @@
+{
+  "slug": "washington",
+  "nameAr": "جورج واشنطن",
+  "nameEn": "George Washington",
+  "alternateNames": [],
+  "birth": { "date": "1732-02-22", "place": "بوبس كريك، فيرجينيا، أمريكا", "precision": "exact" },
+  "death": { "date": "1799-12-14", "place": "ماونت فيرنون، فيرجينيا" },
+  "nationality": "أمريكي",
+  "geography": { "regions": ["north-america"], "countries": ["الولايات المتحدة"] },
+  "culturalBackground": ["american-civilization"],
+  "fields": { "primary": "politics", "secondary": ["military"] },
+  "era": "modern",
+  "religion": { "value": "مسيحي (أسقفي)", "documented": true },
+  "political": { "value": "فدرالي (مستقل حزبياً)", "documented": true },
+  "image": { "url": "assets/images/figures/washington.webp", "alt": "بورتريه جورج واشنطن", "credit": "Public Domain" },
+  "summary": "قائد عسكري وسياسي أمريكي، قاد حرب الاستقلال، وأصبح أول رئيس للولايات المتحدة (1789-1797).",
+  "notableFor": "قيادة الثورة الأمريكية، وأول رئيس للولايات المتحدة",
+  "timeline": [
+    { "year": "1732", "event": "ولادته في فيرجينيا" },
+    { "year": "1775", "event": "تعيينه قائداً للجيش القاري" },
+    { "year": "1783", "event": "استقلال الولايات المتحدة" },
+    { "year": "1789", "event": "انتخابه أول رئيس" },
+    { "year": "1799", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في فيرجينيا لعائلة مزارعة، وعمل مساحاً ثم ضابطاً في الجيش البريطاني.",
+    "career": "قاد الجيش القاري في حرب الاستقلال، وترأس المؤتمر الدستوري، ثم أصبح أول رئيس.",
+    "achievements": [
+      "قيادة الثورة الأمريكية إلى النصر",
+      "ترؤس المؤتمر الدستوري (1787)",
+      "أول رئيس للولايات المتحدة",
+      "تأسيس تقاليد الرئاسة الأمريكية"
+    ],
+    "inventions": [],
+    "ideas": "الجمهورية الفدرالية، وعدم الانحياز الحزبي، وتداول سلمي للسلطة.",
+    "positions": ["القائد الأعلى للجيش القاري", "أول رئيس للولايات المتحدة"],
+    "quotes": []
+  },
+  "relatedFigures": ["lincoln", "napoleon"],
+  "sources": [
+    { "title": "George Washington — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/George-Washington", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "George Washington — Mount Vernon", "url": "https://www.mountvernon.org/george-washington/", "publisher": "Mount Vernon Ladies' Association", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الأولية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "shakespeare",
+  "nameAr": "وليام شكسبير",
+  "nameEn": "William Shakespeare",
+  "alternateNames": ["Bard of Avon"],
+  "birth": { "date": "1564-04-26", "place": "ستراتفورد أبون أفون، إنجلترا", "precision": "year" },
+  "death": { "date": "1616-04-23", "place": "ستراتفورد أبون أفون، إنجلترا" },
+  "nationality": "إنجليزي",
+  "geography": { "regions": ["western-europe"], "countries": ["إنجلترا"] },
+  "culturalBackground": ["european-civilization"],
+  "fields": { "primary": "literature", "secondary": ["arts"] },
+  "era": "renaissance",
+  "religion": { "value": "مسيحي (أنجليكاني)", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/shakespeare.webp", "alt": "بورتريه شكسبير", "credit": "Public Domain" },
+  "summary": "شاعر وكاتب مسرحي إنجليزي، يُعدّ أعظم كاتب في اللغة الإنجليزية وأحد أعظم الأدباء في التاريخ.",
+  "notableFor": "مسرحيات هاملت، مكبث، روميو وجولييت، والملك لير",
+  "timeline": [
+    { "year": "1564", "event": "ولادته في ستراتفورد" },
+    { "year": "1592", "event": "بداية شهرته في لندن" },
+    { "year": "1599", "event": "افتتاح مسرح غلوب" },
+    { "year": "1616", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في ستراتفورد وتلقّى تعليماً محلياً، ثم انتقل إلى لندن حيث بدأ مسيرته المسرحية.",
+    "career": "عمل ممثلاً وكاتباً وشريكاً في فرقة «رجال الملك»، وألّف 38 مسرحية و154 سونيتة.",
+    "achievements": [
+      "تأليف 38 مسرحية و154 سونيتة",
+      "تأسيس مسرح غلوب",
+      "إثراء اللغة الإنجليزية بمئات المفردات والتعابير",
+      "تأثير عالمي مستمر في الأدب والمسرح"
+    ],
+    "inventions": [],
+    "ideas": "استكشاف الطبيعة البشرية، والصراع بين الطموح والأخلاق، والحب والسلطة والموت.",
+    "positions": ["شريك في فرقة رجال الملك"],
+    "quotes": [
+      { "text": "الدنيا مسرح، وكل الرجال والنساء مجرد ممثلين", "source": "كما تشاء" }
+    ]
+  },
+  "relatedFigures": ["leonardo-da-vinci", "tagore"],
+  "sources": [
+    { "title": "William Shakespeare — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/William-Shakespeare", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Shakespeare's Works — Folger Shakespeare Library", "url": "https://www.folger.edu/shakespeares-works", "publisher": "Folger Shakespeare Library", "type": "institutional", "accessed": "2024-01-15", "supports": "النصوص" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

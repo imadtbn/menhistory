@@ -1,0 +1,46 @@
+{
+  "slug": "ibn-khaldun",
+  "nameAr": "عبد الرحمن بن خلدون",
+  "nameEn": "Ibn Khaldun",
+  "alternateNames": ["ابن خلدون", "ولي الدين عبد الرحمن"],
+  "birth": { "date": "1332", "place": "تونس", "precision": "year" },
+  "death": { "date": "1406", "place": "القاهرة، مصر" },
+  "nationality": "تونسي",
+  "geography": { "regions": ["north-africa", "middle-east"], "countries": ["تونس", "مصر", "إسبانيا"] },
+  "culturalBackground": ["islamic-civilization", "arab-civilization"],
+  "fields": { "primary": "history", "secondary": ["philosophy", "economy"] },
+  "era": "medieval",
+  "religion": { "value": "الإسلام", "documented": true },
+  "political": { "value": "وزير وسفير لدى بلاطات شمال أفريقيا والأندلس", "documented": true },
+  "image": { "url": "assets/images/figures/ibn-khaldun.webp", "alt": "تمثال ابن خلدون", "credit": "Public Domain" },
+  "summary": "مؤرخ وفيلسوف اجتماعي، يُعدّ رائداً لعلم الاجتماع وفلسفة التاريخ بفضل مقدمته الشهيرة.",
+  "notableFor": "مقدمة ابن خلدون، وتأسيس علم العمران البشري (علم الاجتماع)",
+  "timeline": [
+    { "year": "1332", "event": "ولادته في تونس" },
+    { "year": "1375", "event": "اعتزاله في قلعة ابن سلامة لكتابة المقدمة" },
+    { "year": "1382", "event": "انتقاله إلى القاهرة" },
+    { "year": "1406", "event": "وفاته في القاهرة" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في تونس لعائلة أندلسية عريقة، تلقّى تعليماً تقليدياً في الفقه واللغة والمنطق والفلسفة.",
+    "career": "تقلّد مناصب سياسية وإدارية في بلاطات تونس وفاس وغرناطة، وعمل سفيراً. اعتزل السياسة في أواخر حياته ليكتب «المقدمة» و«العبر».",
+    "achievements": [
+      "تأليف «المقدمة» — أول دراسة منهجية في علم الاجتماع وفلسفة التاريخ",
+      "صياغة مفهوم «العصبية» كنظرية في قيام الدول وسقوطها",
+      "تحليل دور الاقتصاد والعمران في تطور المجتمعات"
+    ],
+    "inventions": [],
+    "ideas": "نظرية دورة الحضارات، وأثر المناخ والاقتصاد في تشكّل المجتمعات. يُعدّ سابقاً لمونتسكيو وفيكو وماركس في تحليل التاريخ.",
+    "positions": ["وزير في فاس", "سفير لدى بلاط قشتالة", "قاضي في القاهرة"],
+    "quotes": [
+      { "text": "الظلم مؤذن بخراب العمران", "source": "المقدمة" }
+    ]
+  },
+  "relatedFigures": ["ibn-sina"],
+  "sources": [
+    { "title": "Ibn Khaldun — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Ibn-Khaldun", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة والإسهامات" },
+    { "title": "Ibn Khaldun — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/ibn-khaldun/", "publisher": "Stanford University", "type": "academic", "accessed": "2024-01-15", "supports": "فلسفة التاريخ والعمران" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

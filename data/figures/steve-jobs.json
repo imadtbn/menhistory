@@ -1,0 +1,49 @@
+{
+  "slug": "steve-jobs",
+  "nameAr": "ستيف جوبز",
+  "nameEn": "Steve Jobs",
+  "alternateNames": ["Steven Paul Jobs"],
+  "birth": { "date": "1955-02-24", "place": "سان فرانسيسكو، كاليفورنيا", "precision": "exact" },
+  "death": { "date": "2011-10-05", "place": "بالو ألتو، كاليفورنيا" },
+  "nationality": "أمريكي",
+  "geography": { "regions": ["north-america"], "countries": ["الولايات المتحدة"] },
+  "culturalBackground": ["american-civilization"],
+  "fields": { "primary": "technology", "secondary": ["economy"] },
+  "era": "20th-century",
+  "religion": { "value": "بوذي (تأثر بالزن)", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/steve-jobs.webp", "alt": "صورة ستيف جوبز", "credit": "Public Domain" },
+  "summary": "رائد أعمال أمريكي، شريك مؤسس شركة Apple، وأحد أبرز المبتكرين في صناعة الحواسيب والهواتف الذكية.",
+  "notableFor": "تأسيس Apple، والآيفون والآيباد، وإعادة تعريف صناعات الحوسبة والهواتف والموسيقى",
+  "timeline": [
+    { "year": "1955", "event": "ولادته في سان فرانسيسكو" },
+    { "year": "1976", "event": "تأسيس Apple مع ستيف وزنياك" },
+    { "year": "1985", "event": "خروجه من Apple" },
+    { "year": "1997", "event": "عودته وإنقاذ الشركة" },
+    { "year": "2007", "event": "إطلاق الآيفون" },
+    { "year": "2011", "event": "وفاته" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد لوالدين غير متزوجين وتُبنّي، ونشأ في كاليفورنيا، والتحق بجامعة ريد لكنه تركها بعد فصل دراسي.",
+    "career": "أسّس Apple عام 1976، وطوّر ماكينتوش، ثم غادر الشركة وأسّس NeXT وPixar، وعاد لإنقاذ Apple عام 1997.",
+    "achievements": [
+      "تأسيس Apple (1976)",
+      "إطلاق iMac, iPod, iPhone, iPad",
+      "تحويل Pixar إلى استوديو رائد",
+      "إعادة تعريف تجربة المستخدم التقنية"
+    ],
+    "inventions": [],
+    "ideas": "التصميم البسيط، والتكامل بين العتاد والبرمجيات، ودمج الفن بالتكنولوجيا.",
+    "positions": ["الرئيس التنفيذي لشركة Apple (1997-2011)"],
+    "quotes": [
+      { "text": "ابقَ جائعاً، ابقَ أحمق", "source": "خطاب جامعة ستانفورد، 2005" }
+    ]
+  },
+  "relatedFigures": ["tesla"],
+  "sources": [
+    { "title": "Steve Jobs — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Steve-Jobs", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Steve Jobs — Stanford Commencement Address", "url": "https://news.stanford.edu/2005/06/12/youve-got-find-love-jobs-says/", "publisher": "Stanford University", "type": "institutional", "accessed": "2024-01-15", "supports": "الخطاب الشهير" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "bruce-lee",
+  "nameAr": "بروس لي",
+  "nameEn": "Bruce Lee",
+  "alternateNames": ["لي جون فان", "Lee Jun-fan"],
+  "birth": { "date": "1940-11-27", "place": "سان فرانسيسكو، كاليفورنيا", "precision": "exact" },
+  "death": { "date": "1973-07-20", "place": "هونغ كونغ" },
+  "nationality": "أمريكي / هونغ كونغي",
+  "geography": { "regions": ["east-asia", "north-america"], "countries": ["هونغ كونغ", "الولايات المتحدة"] },
+  "culturalBackground": ["asian-civilizations"],
+  "fields": { "primary": "sports", "secondary": ["arts"] },
+  "era": "20th-century",
+  "religion": null,
+  "political": null,
+  "image": { "url": "assets/images/figures/bruce-lee.webp", "alt": "صورة بروس لي", "credit": "Public Domain" },
+  "summary": "فنان قتالي وممثل ومخرج أمريكي-صيني، أحد أعظم رموز الفنون القتالية في القرن العشرين، ومؤسس أسلوب «جيت كون دو».",
+  "notableFor": "تأسيس جيت كون دو، ونشر الفنون القتالية الصينية في الغرب، وأفلامه الأسطورية",
+  "timeline": [
+    { "year": "1940", "event": "ولادته في سان فرانسيسكو" },
+    { "year": "1959", "event": "عودته إلى الولايات المتحدة" },
+    { "year": "1967", "event": "تأسيس جيت كون دو" },
+    { "year": "1971", "event": "مسلسل The Green Hornet وأفلام هونغ كونغ" },
+    { "year": "1973", "event": "وفاته المفاجئة" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في سان فرانسيسكو ونشأ في هونغ كونغ، وتدرّب على الوينغ تشون تحت إشراف إيب مان.",
+    "career": "انتقل إلى الولايات المتحدة ودرّس الفنون القتالية، ثم دخل التمثيل وأصبح نجماً عالمياً.",
+    "achievements": [
+      "تأسيس جيت كون دو",
+      "أفلام: Enter the Dragon, Fist of Fury, Way of the Dragon",
+      "كسر صور النمطية العرقية في هوليوود",
+      "تأثير عالمي على الفنون القتالية والثقافة الشعبية"
+    ],
+    "inventions": ["أسلوب جيت كون دو"],
+    "ideas": "«كن ماءً» — المرونة والتكيف، ورفض التقليد الأعمى، والتكامل بين الأساليب.",
+    "positions": [],
+    "quotes": [
+      { "text": "كن ماءً يا صديقي", "source": "مقابلة تلفزيونية، 1971" }
+    ]
+  },
+  "relatedFigures": ["gandhi"],
+  "sources": [
+    { "title": "Bruce Lee — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Bruce-Lee", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "السيرة" },
+    { "title": "Bruce Lee Foundation", "url": "https://bruceleefoundation.org/", "publisher": "Bruce Lee Foundation", "type": "institutional", "accessed": "2024-01-15", "supports": "المصادر الرسمية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}

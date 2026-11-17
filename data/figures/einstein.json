@@ -1,0 +1,50 @@
+{
+  "slug": "einstein",
+  "nameAr": "ألبرت أينشتاين",
+  "nameEn": "Albert Einstein",
+  "alternateNames": ["Albert Einstein"],
+  "birth": { "date": "1879-03-14", "place": "أولم، فورتمبيرغ، ألمانيا", "precision": "exact" },
+  "death": { "date": "1955-04-18", "place": "برينستون، نيوجيرسي، الولايات المتحدة" },
+  "nationality": "ألماني / سويسري / أمريكي",
+  "geography": { "regions": ["western-europe", "north-america"], "countries": ["ألمانيا", "سويسرا", "الولايات المتحدة"] },
+  "culturalBackground": ["european-civilization"],
+  "fields": { "primary": "math-physics", "secondary": ["science"] },
+  "era": "20th-century",
+  "religion": { "value": "يهودي (غير ممارس)", "documented": true },
+  "political": null,
+  "image": { "url": "assets/images/figures/einstein.webp", "alt": "صورة ألبرت أينشتاين", "credit": "Public Domain" },
+  "summary": "فيزيائي نظري، صاحب النظرية النسبية الخاصة والعامة، وأحد أعظم علماء الفيزياء في التاريخ.",
+  "notableFor": "النسبية العامة والخاصة، ومعادلة تكافؤ الكتلة والطاقة E=mc²",
+  "timeline": [
+    { "year": "1879", "event": "ولادته في أولم" },
+    { "year": "1905", "event": "«العام المعجزة» — نشر أربع أوراق علمية ثورية" },
+    { "year": "1915", "event": "إتمام النسبية العامة" },
+    { "year": "1921", "event": "حصوله على جائزة نوبل في الفيزياء" },
+    { "year": "1933", "event": "هجرته إلى الولايات المتحدة" },
+    { "year": "1955", "event": "وفاته في برينستون" }
+  ],
+  "biography": {
+    "earlyLife": "وُلد في أولم بألمانيا لعائلة يهودية. لم يكن طالباً متميزاً في صغره، لكنه أظهر شغفاً بالرياضيات والفيزياء.",
+    "career": "عمل في مكتب براءات الاختراع في برن (1902–1909)، ثم أستاذاً في زيورخ وبرلين، ثم في معهد الدراسات المتقدمة في برينستون.",
+    "achievements": [
+      "النسبية الخاصة (1905)",
+      "تفسير التأثير الكهروضوئي (1905) — أساس ميكانيكا الكم",
+      "معادلة E=mc²",
+      "النسبية العامة (1915)",
+      "جائزة نوبل في الفيزياء (1921)"
+    ],
+    "inventions": [],
+    "ideas": "الزمكان المنحني، تكافؤ الكتلة والطاقة، الحتمية والسببية في الفيزياء.",
+    "positions": ["أستاذ الفيزياء في جامعة برلين", "أستاذ في معهد برينستون"],
+    "quotes": [
+      { "text": "الخيال أهم من المعرفة", "source": "مقابلة، 1929" }
+    ]
+  },
+  "relatedFigures": ["newton", "tesla"],
+  "sources": [
+    { "title": "Albert Einstein — Nobel Prize", "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/", "publisher": "Nobel Foundation", "type": "institutional", "accessed": "2024-01-15", "supports": "السيرة والجائزة" },
+    { "title": "Albert Einstein — Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Albert-Einstein", "publisher": "Encyclopaedia Britannica", "type": "encyclopedia", "accessed": "2024-01-15", "supports": "الإسهامات العلمية" }
+  ],
+  "status": "published",
+  "confidence": "high"
+}
