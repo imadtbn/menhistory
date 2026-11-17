@@ -26,5 +26,5 @@ jobs:
         with:
           node-version: 20
 
-      - name: Validate data, build pages, generate sitemap, and check links
+      - name: Validate data, build pages, generate sitemap, check SEO, and check links
         run: npm run check
